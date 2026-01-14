@@ -1,5 +1,7 @@
 // === src/utils/cycleApi.js ===
 
+import { API_FULL_URL } from "../config/apiConfig";
+
 /**
  * שליפת מחזור ספציפי לפי מזהה
  */
@@ -11,12 +13,12 @@ export async function fetchCycleById(patientId, cycleId) {
 
   try {
     const response = await fetch(
-      `https://eve4userver.evepro365.com/api/GetPatientCycle?id=${patientId}&cycleid=${cycleId}`,
+      `${API_FULL_URL}/GetPatientCycle?id=${patientId}&cycleid=${cycleId}`,
       {
         method: "GET",
         headers: {
-          "Content-Type": "application/json"
-        }
+          "Content-Type": "application/json",
+        },
       }
     );
 
