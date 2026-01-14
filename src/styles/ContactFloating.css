@@ -1,0 +1,20 @@
+/* סגנון האייקון הצף בלבד — בלי כללים כלליים! */
+/* .cf-floating {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  background: #7e4bbf;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 9999;
+  transition: background 0.25s, transform 0.15s;
+}
+.cf-floating:hover { background: #5b3a91; transform: scale(1.05); }
+.cf-icon { font-size: 28px; line-height: 1; pointer-events: none; } */

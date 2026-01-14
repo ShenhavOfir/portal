@@ -1,0 +1,78 @@
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  background: #ffffff;
+  border-top: 1px solid #e0e0e0;
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  padding: 6px 4px 8px;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.06);
+  z-index: 1050;
+}
+
+.bottom-nav-link {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #555;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.bottom-nav-icon {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.bottom-nav-label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.bottom-nav-badge {
+  background: #e53935;
+  color: #fff;
+  border-radius: 999px;
+  padding: 1px 6px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.bottom-nav-link.active {
+  color: #7e4bbf;
+}
+
+@media (max-width: 1100px) {
+  .bottom-nav {
+    display: flex;
+  }
+}
+
+/* מסכים קטנים מאוד – סרגל תחתון יותר דק וצפוף */
+@media (max-width: 360px) {
+  .bottom-nav {
+    height: 54px;
+    padding: 3px 2px 5px;
+  }
+
+  .bottom-nav-icon {
+    font-size: 16px;
+    margin-bottom: 1px;
+  }
+
+  .bottom-nav-link {
+    font-size: 10px;
+  }
+}
+
+
+

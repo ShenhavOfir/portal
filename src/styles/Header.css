@@ -1,0 +1,317 @@
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 12px;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 24px; /* צמוד יחסית להמבורגר הקבוע, בלי לדרוס אותו */
+  justify-content: flex-end;
+}
+
+.yellow-bell svg {
+  color: #ffc107 !important;
+  font-size: 1.6rem;
+}
+
+.red-badge {
+  background-color: #e53935 !important;
+  color: white;
+}
+
+.notif-btn {
+  position: relative;
+}
+
+.notif-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  border-radius: 999px;
+  font-size: 10px;
+  padding: 2px 6px;
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+}
+
+.hamburger-wrapper {
+  font-size: 1.4rem;
+}
+
+
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.nav-links .nav-link {
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin-inline: 10px;
+}
+
+.cycle-center {
+  flex: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 220px;
+  min-width: 160px;
+}
+
+.language-selector {
+  /* במידה ויש מחלקה ייעודית, אחידות */
+  min-width: 130px;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 8px;
+  text-align: left;
+}
+
+.lang-refresh {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.last-update-text {
+  font-size: 0.7rem;
+  color: #777;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+}
+
+.refresh-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.header-logout-btn {
+  white-space: nowrap;
+  font-size: 0.75rem !important;
+  padding: 3px 10px !important;
+  border-radius: 999px !important;
+}
+
+.logout-inline {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-purple {
+  background: #7c3aed;
+  color: #fff !important;
+  border-color: #7c3aed;
+}
+.btn-purple:hover {
+  background: #5b23b7;
+  border-color: #5b23b7;
+}
+
+.styled-block-btn {
+  border-radius: 14px !important;
+  border: 2px solid #7c3aed !important;
+  background: #fff !important;
+  color: #7c3aed !important;
+  box-shadow: 0 1px 5px 0 rgba(124,50,237,.10);
+  padding: 6px 14px !important;
+  font-weight: 400;
+  transition: 160ms;
+}
+.styled-block-btn:focus, .styled-block-btn:active, .styled-block-btn:hover {
+  border-color: #5b23b7 !important;
+  color: #5b23b7 !important;
+}
+
+.mobile-auth-btn {
+  display: none;
+}
+
+/* שורת רענון בדסקטופ */
+.desktop-refresh-row {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+/* כפתור התנתקות בדסקטופ – מעל ההדר */
+.desktop-logout-wrapper {
+  display: none;
+  width: 100%;
+  margin: 0 0 4px;
+  direction: rtl; /* שומר על מיקום קבוע בצד שמאל גם כששפת הממשק אנגלית */
+}
+
+.desktop-logout-btn {
+  font-size: 0.8rem !important;
+  padding: 4px 10px !important;
+}
+
+/* כפתור רענון – אייקון בלבד, בלי מסגרת */
+.btn-refresh {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #5b41a8 !important;
+  font-size: 18px !important;
+  padding: 0 4px !important;
+}
+.btn-refresh:hover,
+.btn-refresh:focus {
+  background: transparent !important;
+  outline: none !important;
+}
+
+/* מובייל / טאבלט – עד 1100px */
+@media (max-width: 1100px) {
+  .header-inner {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      "right left"
+      "refresh refresh"
+      "cycle cycle";
+    align-items: center;
+    column-gap: 6px;
+    row-gap: 4px;
+    width: 100%;
+  }
+
+  .right-header {
+    grid-area: right;
+    gap: 6px;
+    margin-right: 20px;
+    justify-content: flex-start;
+  }
+
+  .left-header {
+    grid-area: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+  }
+
+   .cycle-center {
+    grid-area: cycle;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 2px auto 0;   /* ❗ זה החלק החסר */
+  }
+
+  .nav-wrapper {
+    display: none !important;
+  }
+
+  /* ליתר ביטחון מסתיר גם את רשימת הניווט בתוך ה-Navbar */
+  .custom-navbar .navbar-nav,
+  .custom-navbar .nav-links {
+    display: none !important;
+  }
+
+  .lang-refresh {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .notif-btn svg {
+    font-size: 1.4rem;
+  }
+
+  .notif-badge {
+    font-size: 10px;
+    padding: 2px 5px;
+  }
+
+  .mobile-logout-btn {
+    font-size: 0.7rem !important;
+    padding: 2px 8px !important;
+    max-width: 120px;
+    line-height: 1.1;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .header-logout-btn {
+    width: auto !important;
+    font-weight: 700 !important;
+  }
+
+  .mobile-refresh-row {
+    grid-area: refresh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  .desktop-refresh-row {
+    display: none;
+  }
+}
+@media (min-width: 1001px) {
+  .header-inner {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  /* שלושת הקבוצות בשורה הראשונה */
+  .right-header,
+  .nav-wrapper,
+  .left-header {
+    order: 1;
+  }
+
+  /* בוחר מחזור – שורה שנייה, באמצע */
+  .cycle-center {
+    order: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+  }
+ /* המרכז – עמודה אחת משותפת */
+ .nav-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+  .desktop-logout-wrapper {
+    display: flex;
+    justify-content: flex-end; /* ב-RTL זה מצמיד לשמאל המסך */
+  }
+
+  .mobile-logout-btn {
+    display: none !important;
+  }
+
+  .mobile-refresh-row {
+    display: none;
+  }
+}

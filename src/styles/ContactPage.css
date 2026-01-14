@@ -1,0 +1,126 @@
+/* בסיס */
+.cp-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 48px 20px;
+  background: #f7f3fb;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.cp-title {
+  font-size: 32px;
+  color: #7e4bbf;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.cp-form {
+  background: #fff;
+  padding: 36px 32px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(20, 16, 35, 0.1);
+  width: 100%;
+  max-width: 540px;
+  display: grid;
+  gap: 20px;
+}
+
+/* .cp-label {
+  font-weight: 700;
+  color: #333;
+} */
+
+/* שדות קלט רגילים */
+/* .cp-input,
+.cp-textarea,
+.cp-select {
+  width: 94%;
+  padding: 12px 14px;
+  border: 1px solid #c5a5e3;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+} */
+
+/* .cp-input:focus,
+.cp-textarea:focus,
+.cp-select:focus {
+  border-color: #7e4bbf;
+  box-shadow: 0 0 0 3px rgba(126, 75, 191, 0.15);
+} */
+
+/* .cp-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.cp-submit {
+  background: #7e4bbf;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+} */
+
+/* .cp-submit:hover {
+  background: #5b3a91;
+}
+
+.cp-error {
+  color: #c62828;
+  font-size: 0.95em;
+  margin-top: 4px;
+} */
+
+.cp-back-btn {
+  background: none;
+  border: none;
+  color: #7e4bbf;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+}
+
+/* שורת קידומת + מספר */
+.cp-phone-row {
+  display: flex;
+  flex-direction: row; /* קידומת בצד שמאל, שדה מספר בצד ימין */
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+}
+
+/* הגדרות לקידומת */
+.cp-select {
+  max-width: 90px;
+  direction: ltr;
+  text-align: left;
+}
+
+/* הגדרות לשדה המספר */
+.cp-input.phone {
+  flex: 1;
+  direction: ltr;
+  text-align: left;
+}
+
+/* רספונסיביות */
+@media (max-width: 400px) {
+  .cp-input,
+  .cp-textarea,
+  .cp-phone-row {
+    width: 100%;
+    max-width: none;
+  }
+}

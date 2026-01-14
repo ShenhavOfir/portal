@@ -1,0 +1,474 @@
+/* .tp-wrapper {
+  padding: 16px 12px;
+  max-width: 1120px;
+  margin: 0 auto;
+  font-family: sans-serif;
+} */
+
+/* .tp-title {
+  margin-bottom: 12px;
+  color: #1d1b22;
+  font-weight: 900;
+} */
+
+/* לוח שבועי מלא */
+/* .tp-calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+} */
+/* .tp-task-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; 
+  font-size: 15px;
+  font-weight: 700;
+  direction: rtl;
+  color: #1d1b22;
+} */
+
+/* .task-visual {
+  direction: rtl;
+  padding: 6px 8px;
+}
+
+.task-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.task-text {
+  color: #1d1b22;
+  text-align: right;
+} */
+
+/* .task-icon {
+  display: inline-flex;
+  gap: 6px; 
+  font-size: 22px;
+  color: #5b41a8;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.tp-week-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+} */
+
+/* .tp-tile {
+  border-radius: 12px;
+  border: 1px solid #e7e4f6;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(20, 16, 35, 0.06);
+  padding: 10px 8px;
+  text-align: center;
+  cursor: pointer;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 6px;
+}
+
+.tp-tile.active {
+  border: 2px solid #7e4bbf;
+  background: #f4f0ff;
+}
+
+.tp-tile.empty {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  cursor: default;
+}
+
+.tp-date {
+  font-weight: 800;
+  color: #5b41a8;
+} */
+
+/* .tp-icons {
+  font-size: 20px;
+} */
+
+/* .tp-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #eee6ff;
+  border: 1px solid #dccfff;
+  color: #5b41a8;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.tp-chosen {
+  display: inline-block;
+  margin: 4px auto;    
+  background: #f0ecff;
+  border: 1px solid #e6ddff;
+  color: #5b41a8;
+  border-radius: 999px;
+  padding: 4px 10px;  
+  font-weight: 800;
+  text-align: center;
+    margin-left: auto;
+  margin-right: auto;
+} */
+
+/* קטעי תוכן */
+/* .tp-section {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(20, 16, 35, 0.06);
+  padding: 12px 14px;
+  margin: 12px 0;
+} */
+
+/* .tp-section-title {
+  margin: 0 0 12px;
+  color: #5b41a8;
+  font-weight: 900;
+  font-size: 20px;  
+} */
+
+
+/* הודעות מרופא */
+/* .tp-message {
+  padding: 8px 6px;
+  border-bottom: 1px solid #f1f0f6;
+}
+
+.tp-message-dr {
+  font-weight: 800;
+}
+
+.tp-message-text {
+  margin-top: 2px;
+} */
+
+/* .tp-empty {
+  color: #555; 
+  font-weight: 700;
+  opacity: 0.9;
+} */
+
+/* משימות היום */
+/* .tp-task {
+  font-size: 14px;
+}
+
+.tp-no-task {
+  color: #7e4bbf;  
+  font-weight: 700;
+  text-align: center;
+} */
+
+
+/* תרופות / זריקות */
+/* .tp-med {
+  padding: 10px 6px;
+  border-bottom: 1px solid #f1f0f6;
+}
+
+.tp-med-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* .tp-done-btn {
+  background: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 12px;
+  font-weight: 800;
+  cursor: pointer;
+  min-width: 110px;
+}
+
+.tp-done-btn.done {
+  background: #7e4bbf;
+  color: #fff;
+} */
+
+/* מודאל אישור */
+.tp-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.tp-modal-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  padding: 18px 16px;
+  max-width: 420px;
+  width: calc(100% - 32px);
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+/* .tp-modal-text {
+  font-weight: 700;
+  color: #5b41a8;
+  margin-bottom: 8px;
+}
+
+.tp-modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 14px;
+} */
+
+/* .tp-modal-btn {
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  border: none;
+  background: #eee;
+  color: #333;
+  min-width: 110px;
+} */
+
+/* .tp-modal-btn.filled {
+  background: #7e4bbf;
+  color: #fff;
+} */
+
+/* הודעות כלליות */
+.no-data {
+  text-align: center;
+  color: #7e4bbf;
+  font-weight: 700;
+}
+/* .tp-med-quantity {
+  font-size: 14px;
+  color: #444;
+  margin-top: 4px;
+} */
+
+/* .tp-med-doctor {
+  font-size: 13px;
+  color: #9b59b6;   
+  font-weight: bold;
+  margin-top: 4px;
+}
+.tp-icon-pill {
+  position: relative;
+  display: inline-block;
+  font-size: 1.1rem;
+} */
+
+/* .tp-icon-pill sup {
+  position: absolute;
+  top: -0.4em;
+  right: -0.6em;
+  font-size: 0.6em;
+  background: #fff;
+  border-radius: 50%;
+  padding: 2px 5px;
+  color: #000;
+  border: 1px solid #ccc;
+  line-height: 1;
+}
+.tp-med-period {
+  margin-top: 4px;
+  font-size: 0.9em;
+  color: #555;
+} */
+.tp-preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  font-size: 1.1rem;
+  color: #663399;
+}
+
+.tp-spinner {
+  border: 4px solid #ddd;
+  border-top: 4px solid #663399;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.tp-preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 9999;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 0.9s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.tp-done-btn.pending {
+  background-color: #ccc;
+  color: #666;
+  cursor: wait;
+}
+
+.loader.small {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #663399;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  animation: spin 0.8s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* .tp-reminder-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+
+.tp-done-icon {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+} */
+
+
+/* .tp-done-icon.yes {
+  color: rgb(253, 254, 255);
+}
+.tp-done-icon.no {
+  color: gray;
+} */
+/* .tp-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.tp-half {
+  flex: 1;
+  min-width: 280px;
+} */
+/* .ova-btn {
+  border: 1px solid var(--chip-brd);
+  background: #fff;
+  color: var(--brand);
+  font-weight: 800;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.ova-btn:hover {
+  background: var(--chip-bg);
+} */
+/* סימון היום הנוכחי */
+/* .tp-tile.today {
+  border-color: #7e4bbf;     
+  background: #eae0ff;       
+} */
+
+/* שם יום השבוע קט – ליד התאריך */
+/* .tp-weekday {
+  font-size: 12px;
+  color: #5b41a8;
+  margin-left: 4px;
+} */
+/* .tp-weekdays-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #666;
+  direction: rtl;
+  padding: 0 2px;
+}
+
+.tp-weekday-cell {
+  flex: 1;
+  text-align: center;
+} */
+@media (max-width: 600px) {
+  .tp-week-row {
+    grid-template-columns: repeat(7, 1fr); /* לשמור על 7 עמודות */
+    gap: 4px;
+  }
+
+  .tp-tile {
+    padding: 6px 4px;
+    font-size: 12px;
+    min-height: 72px;
+  }
+
+  .tp-icons {
+    font-size: 14px;
+  }
+
+  .tp-date {
+    font-size: 13px;
+  }
+
+  .tp-chosen {
+    font-size: 12px;
+    padding: 2px 6px;
+  }
+}
+@media (max-width: 360px) {
+  .tp-date {
+    font-size: 0.75rem;
+  }
+}

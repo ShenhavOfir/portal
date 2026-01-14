@@ -1,0 +1,36 @@
+/* src/styles/NotificationBell.css */
+/* .notification-bell {
+  all: unset;            
+  cursor: pointer;       
+  position: relative;    
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  padding: 6px 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-size: 18px;
+  line-height: 1;
+}
+
+.notification-bell:hover {
+  background: #f4f0ff;    
+  border-color: #7e4bbf;
+}
+
+.notification-count {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  background: #e53935;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  font-weight: bold;
+  z-index: 1;
+} */
+
+

@@ -1,0 +1,27 @@
+.language-select-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.language-select-label {
+  color: #555;
+  font-weight: 700;
+}
+
+.language-select-dropdown {
+  border-radius: 8px;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  direction: ltr;
+  font-weight: 600;
+}
+
+.language-select-loading {
+  color: #7e4bbf;
+  font-weight: 700;
+}
+
+.language-select-error {
+  color: crimson;
+}

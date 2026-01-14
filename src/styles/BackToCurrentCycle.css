@@ -1,0 +1,21 @@
+.back-to-current-btn {
+  font-size: 0.95rem;     /* טקסט בגודל נעים */
+  padding: 8px 16px;      /* כפתור בינוני */
+  border-radius: 10px;    /* עיגול עדין */
+  font-weight: 600;
+  cursor: pointer;
+
+  background: var(--brand);
+  color: white;
+  border: none;
+
+  transition: 0.2s ease-in-out;
+}
+
+.back-to-current-btn:hover {
+  opacity: 0.9;
+}
+
+.back-to-current-btn:active {
+  transform: scale(0.97);
+}

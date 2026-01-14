@@ -1,0 +1,45 @@
+ /* # Language Selector Login Styles only */
+.login-lang-wrapper {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: #7b3f98; /* סגול */
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  cursor: pointer;
+}
+
+/* האייקון 🌐 יוצג במרכז */
+.login-lang-wrapper span {
+  font-size: 20px;
+  color: white;
+  pointer-events: none;
+}
+
+/* ה-select מוסתר אבל נשאר פעיל */
+.login-lang-wrapper select {
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* dropdown custom */
+.login-lang-wrapper select:focus {
+  outline: none;
+}
+
+/* סגנון התפריט הנפתח (לרוב דפדפנים מודרניים) */
+.login-lang-wrapper select option {
+  padding: 8px;
+  font-size: 14px;
+  background: white;
+  color: #5b41a8;
+}

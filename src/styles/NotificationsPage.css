@@ -1,0 +1,76 @@
+.notifications-page {
+  padding: 1rem;
+  min-height: 300px;
+  direction: rtl;
+  background: #faf8fd;
+}
+
+.notifications-page h2 {
+  margin-bottom: 16px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* .btn-delete-all {
+  margin-bottom: 12px;
+  padding: 6px 12px;
+  background-color: #7e4bbf;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+} */
+
+/* .btn-delete-all:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+} */
+
+.notifications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notifications-list li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #e6e0f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification-info .time {
+  font-size: 0.9rem;
+  color: #7e4bbf;
+  text-align: right;
+}
+
+.notification-info .message {
+  font-weight: 600;
+  margin-top: 4px;
+  text-align: right;
+}
+
+/* .notification-delete-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #7e4bbf;
+}
+
+.notification-delete-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+} */

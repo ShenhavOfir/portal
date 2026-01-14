@@ -1,0 +1,256 @@
+/* === src/styles/LoginPage.css === */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* .logo {
+  font-size: 2.6rem;      
+  font-weight: bold;
+  color: #7b3f98;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-family: "Heebo", Arial, sans-serif;  
+}
+
+.subtitle {
+  font-size: 1.2rem;       
+  color: #444;
+  margin-bottom: 2rem;
+  max-width: 340px;
+  line-height: 1.6;
+  font-family: "Heebo", Arial, sans-serif;
+} */
+
+.start-btn {
+  width: 220px;            /* קצת יותר גדול */
+  height: 220px;
+  border-radius: 50%;
+  border: 2px solid #d2b9e3;
+  background: #f9f6fb;
+  color: #7b3f98;
+  font-size: 1.4rem;       /* טקסט גדול */
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  transition: 0.2s ease;
+  font-family: "Heebo", Arial, sans-serif;
+}
+
+.start-btn:hover {
+  background: #e9dff2;
+}
+
+.actions-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.actions-row button {
+  border-radius: 50%;
+  width: 95px;
+  height: 95px;
+  border: none;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  color: #7b3f98;
+  cursor: pointer;
+  transition: 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;        /* טקסט ברור יותר */
+  font-weight: 500;
+  font-family: "Heebo", Arial, sans-serif;
+}
+
+.actions-row button:hover {
+  background: #f2e8f7;
+}
+
+.actions-row button svg {
+  margin-bottom: 0.4rem;
+  font-size: 1.3rem;       /* אייקון יותר גדול */
+}
+
+
+.terms-row {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #333;            /* טקסט לבן */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: "Heebo", Arial, sans-serif;
+}
+.terms-row input[type="checkbox"] {
+  transform: scale(1.2);
+}
+.terms-row .link {
+  color: #333;             /* קישור לבן */
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem 1rem;
+
+  /* רקע אחיד לכל המסכים – אותו עיצוב במובייל ובדסקטופ */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #ffffff 60%,  /* טיפה יותר לבן – הסגול נעצר קצת לפני סוף העיגולים */
+    #7b3f98 60%,
+    #7b3f98 100%  /* אזור סגול מלמטה */
+  );
+}
+/* עיצוב כפתורי ברקוד/ת"ז */
+.login-options {
+  display: flex;
+  flex-direction: column; /* ✅ אחד מתחת לשני */
+  gap: 1rem;              /* רווח ביניהם */
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.login-options button {
+  width: 100%;
+  padding: 12px 18px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background: #f3e8ff;
+  color: #4a148c;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
+}
+/* הקופסה הלבנה */
+.tp-modal-box {
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  width: 90%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;   /* ✅ טור במקום שורה */
+  gap: 12px;                /* רווח בין הכפתורים */
+}
+
+.login-options button:hover {
+  background: #d1c4e9;
+}
+
+/* כותרת במסך התחברות */
+.login-form h2 {
+  font-size: 32px;          /* יותר גדולה */
+  font-weight: 800;         /* מודגש */
+  color: #4a148c;           /* סגול כהה */
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: "Heebo", Arial, sans-serif;
+}
+/* טקסט הסבר */
+.login-form p {
+  text-align: center;
+  font-size: 18px;          /* ✅ יותר קריא */
+  color: #333;              /* כהה יותר */
+  margin-bottom: 1.5rem;
+  max-width: 360px;         /* ✅ לא יתפרש לרוחב */
+  line-height: 1.5;
+  font-family: "Heebo", Arial, sans-serif;
+  margin-left: auto;        /* ✅ ממורכז */
+  margin-right: auto;
+}
+
+
+/* שדות קלט */
+.login-form input {
+  width: 100%;
+  max-width: 260px;         /* ✅ יותר צר */
+  margin: 0 auto 1rem;
+  padding: 10px;
+  border: 1px solid #7e57c2;
+  border-radius: 12px;      /* ✅ פינות רכות ועדינות */
+  outline: none;
+  font-size: 15px;
+  text-align: center;       /* ✅ הטקסט יושב יפה באמצע */
+}
+
+
+
+.login-form input:focus {
+  border-color: #4a148c;
+  box-shadow: 0 0 5px rgba(126, 87, 194, 0.4);
+}
+
+/* כפתור המשך */
+.login-form button {
+  display: block;
+  width: 100%;
+  max-width: 260px;         /* ✅ תואם לגודל התיבות */
+  margin: 0 auto;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  background: #7e57c2;
+  color: white;
+  font-size: 17px;          /* ✅ טקסט קצת יותר גדול */
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-align: center;
+}
+
+.login-form button:hover {
+  background: #6a46a9;
+}
+
+
+/* .tp-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.tp-modal-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+} */
+/* .link {
+  cursor: pointer;
+  color: #663399;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 0.95rem;
+} */

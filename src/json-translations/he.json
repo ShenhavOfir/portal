@@ -1,0 +1,1474 @@
+{
+  "LanguageName": "עברית",
+  "key": "he",
+  "Direction": "rtl",
+  "Strings": {
+    "Home": "דף הבית",
+    "about": "אודות",
+    "aboutText": " מבית OBG Soft הינה אפליקציה סלולארית למטופלות פוריות. לצורך מעקב אחרי   פרוטוקול טיפול הפוריות שניתן לך, הוראות הצוות הרפואי, תוכנית בדיקות  ולוחות זמנים. ניתן לקבל תזכורות על ביצוע בדיקות ונטילת תרופות, וכן  לקבל מידע על מצב הביציות והעוברים.",
+    "account": "חשבון",
+    "agreeToTerms": "קראתי את",
+    "agreeToTerms_2": " תנאי השימוש",
+    "andMore": "ועוד",
+    "viewInfo": "למידע",
+    "infoMenu": "מידע",
+    "hotLine": "להדרכה",
+    "view": "לצפייה",
+    "appGuide": "הוראות  שונות שניתנו לך ביחידה",
+    "appInfo": "\n\n האפליקציה מציגה את המידע הבא:",
+    "appTitle": "Eve4u  - אפליקציה למטופלות פוריות",
+    "barcodeScan": "סריקת ברקוד",
+    "cancel": "ביטול",
+    "freshMany": "טריים",
+    "didntGet": "לא קיבלתי קוד",
+    "otpCodeWrong": "הקוד שהוזן אינו תקין",
+    "sendAgain": "שילחו לי שוב",
+    "otpValidateContent": "אנא הזיני את הקוד שקיבלת למספר",
+    "defrostedManyWraped": " (מופשרים)",
+    "secondaryReturnOnDate": "הוחזרו בתאריך ",
+    "fertelizedDefrosted": "שרדו הפשרה",
+    "secondaryReturn": "החזרה  שניה ",
+    "defrostedMany": "מופשרים",
+    "cardExpiration": "תוקף כרטיס",
+    "cardNumber": "מס׳ כרטיס",
+    "discontinued": "נעצרו בהתפתחות",
+    "frozen": "הוקפאו",
+    "injected": "הוזרקו",
+    "defrosted": "הופשרו",
+    "defrostedOn": "הופשרו בתאריך ",
+    "remainedFrozen": " נותרו קפואים ",
+    "fertilized": "הופרו",
+    "pumped": "נשאבו",
+    "donated": "נתרמו",
+    "pumpedOnDate": "נשאבו בתאריך ",
+    "confirm": "אישור",
+    "continue": "המשך",
+    "cvv": "CVV(מספר בגב הכרטיס)",
+    "demo": "הדגמה",
+    "done": "בוצע",
+    "generalError": "ארעה שגיאה",
+    "destroyNeedle": "דאגי להשמיד את המחט והמזרק כנדרש",
+    "emailAddress": "info@obgsoft.com",
+    "errorCantSetFutureDate": "אין אפשרות לעדכן ביצוע לתאריך עתידי",
+    "error_message_SMS": "אחד מהפרטים שהוזנו שגויים. נסי שנית או פני לצוות המרפאה להמשך הליך ההתחברות ",
+    "fullName": "שם מלא",
+    "getIn": "כניסה",
+    "gotIt": "OK. Got it!",
+    "ID_content": "יש להזין ת.ז מלאה ומס’ טלפון נייד כפי שמעודכן במרפאה. אנו נשלח לך קוד חד פעמי לטלפון.",
+    "ID_placeHolder": "מספר ת.ז",
+    "idConnect": "התחברות עם ת.ז",
+    "infoComment": "כל המידע המוצג הינו מידע בזמן אמת הכולל התראות על כל עדכון ושינויים בתוכנית. השימוש באפליקציה יסייע לך להיות מעודכנת בכל רגע נתון בפרטי הטיפול ובזמן אמת, ולוודא שביצעת את כל הנדרש באופן נכון ובזמן.*האפליקציה מאובטחת בהתאם לכל כללי האבטחה המחמירים של שמירה על סודיות רפואית. *המידע מתעדכן רק במקרים בהם הרופא המטפל או היחידה המטפלת משתמשים בתוכנית ה EvePro לשאלות או מידע נוסף ניתן לפנות אלינו במייל",
+    "injectionContent": "מרבית הזריקות הן תת עוריות וניתנות בבטן. אופי הביצוע משתנה בין הזריקות השונות.ישנם מזרקים הבנויים בצורה של עט ומכילים חומר מוכן להזרקה עם מינון הניתן לכוונון.  ישנן ערכות הזרקה, להן מצורף מזרק וחומר תרופה, כאשר קיימת הוראה של הרופא לשימוש מהבקבוק במינונים משתנים. לכל סוג מזרק וחומר ישנו דף הסבר, אותו ניתן לקבל אצל אחות היחידה.  אנא הקפידי לקרוא בעיון את עלוני היצרן המצורפים לתרופות.\n\nברגע שניתנת הוראת ההזרקה, הרופא יפנה אותך לאחות לקבלת הסבר מפורט על אופן ההזרקה. מי שמסיבות שונות מעדיפות שלא להזריק עצמן – יכולות להסתייע באחות היחידה, או ללכת לאחות בקהילה לביצוע הזריקות. חשוב לציין כי עבור כל סוג תרופה קיימים עלוני הדרכה המתארים את דרך השימוש בתרופה על פי המלצות היצרן.",
+    "injectionGuide": "הנחיות הזרקה",
+    "injectionsAndMedicine": "תרופות וזריקות",
+    "injectionTitle": "הנחיות כלליות להזרקה לזריקות השונות",
+    "inputCardNumber": "הזיני מספר כרטיס",
+    "inputFullName": "הזיני שם מלא",
+    "inputMessage": "הזיני הודעה כאן",
+    "inputPhoneNumber": "הזיני מספר טלפון",
+    "inputUserName": "הזיני שם משתמש",
+    "alerts": "התראות",
+    "insertNeedle": "החדירי את המזרק למקום הזריקה בבטנך",
+    "instructions": "הנחיות",
+    "labResults": "תוצאות מעבדה",
+    "login": "התחברות",
+    "loginToSystem": "התחברות למערכת",
+    "mailto": "info@obgsoft.com?subject=פנייה לשירות",
+    "medicineAndInjections": "תרופות וזריקות",
+    "medicineReminder": "מידע ותזכורות ללקיחת תרופות",
+    "messageContent": "תוכן ההודעה",
+    "name": "שם",
+    "noClinicMessages": "אין הודעות מהמרפאה",
+    "messagesFromClinicTitle": "הודעות מהמרפאה",
+    "dosage": "מינון",
+    "noMedicineOrInjectionsToday": "אין תרופות או הזרקות להיום",
+    "noTaksForToday": "אין משימות להיום",
+    "password": "סיסמה",
+    "passwordRepeat": "אימות סיסמה ",
+    "passwordValidation": "הסיסמה צריכה להיות מורכבת מ 6 תווים",
+    "paymentMethodNotReady": "אמצעי תשלום לא מעודכן",
+    "paymentMethodReady": "אמצעי תשלום מעודכן",
+    "paymentStartsMessage": "החיוב יחל בתום תקופת הניסיון",
+    "phone_placeHolder": "מספר טלפון נייד",
+    "phoneNumber": "מספר טלפון",
+    "pleaseRepeatPassword": "הזיני שוב את הסיסמה שבחרת",
+    "prepareEquipment": "הכיני את כל הציוד הנדרש. אם יש צורך בהכנת התמיסה פעלי בהתאם להוראות  היצרן",
+    "protocolInfo": "מידע על פרוטוקול הטיפול",
+    "pumpInfo": "מידע על שאיבה והחזרת עוברים",
+    "register": "הרשמה",
+    "registration": "הרשמה",
+    "requiredActions": "פעולות נדרשות",
+    "scanBarcodeInstructions": "להפעלה יש לאשר את תנאי השימוש ואז לסרוק את הברקוד שקיבלת במרפאה או להכניס ת.ז.",
+    "scheduleStr": "לוחות זמנים ותזכורות על הבדיקות שיש לבצע",
+    "send": "שלחי",
+    "start": "התחל",
+    "step1": "שלב א",
+    "step2": "שלב ב",
+    "step3": "שלב ג",
+    "step4": "שלב ד",
+    "subscriptionValidDate": "תוקף המנוי עד : ",
+    "support": "תמיכה",
+    "tasks": "משימות",
+    "technicalSupport": "תמיכה טכנית",
+    "terms": "תנאים",
+    "totalMonthlyPaymenr": "סה״כ לתשלום 19.9 ש״ח לחודש",
+    "ultrasoundAndBloodTest": "בדיקת דם , בדיקת אולטרסאונד",
+    "updatedEggsStatus": "סטטוס מעודכן של הביציות",
+    "updatePayment": "עדכון אמצעי תשלום",
+    "username": "שם משתמש ",
+    "washHands": "שטפי ידיים היטב",
+    "whatAreWeDoingToday": "מה עושים היום",
+    "today": "מה עושים היום",
+    "thisDay": "היום",
+    "plan": "תוכנית",
+    "results": "תוצאות",
+    "TreatmentPlane": "תוכנית טיפול",
+    "Result": "תוצאות בדיקה",
+    "Summary": "מעקב ביציות",
+    "finalSummary": "סיכום",
+    "wrongUsernameOrPassword": "שם המשתמש או הסיסמה לא תקינים",
+    "x": "X",
+    "lastUpdate": "עדכון אחרון",
+    "changeMedicinText": "הפעולה לא ניתנת לביטול. האם לאשר לקיחת תרופה?",
+    "cantChangeMedicinText": "הפעולה לא ניתנת לביטול.",
+    "ovulationDaytitle": "גרימת ביוץ",
+    "ovulationReminderTitle": "תזכורת",
+    "pleaseNote": "שימי לב! בתאריך",
+    "at": "בשעה",
+    "youNeedToEnject": "עליך להזריק",
+    "frozenSummery": "ביציות ועוברים קפואים",
+    "thereAre": "נותרו ",
+    "eggsForFuter": "ביציות/עוברים קפואים לפעולות עתידיות בבית החולים",
+    "count": "כמות",
+    "times": "פעמים",
+    "fromDate": "מתאריך",
+    "toDate": "עד תאריך",
+    "medicinesreleasePeriod": {
+      "day": "ביום",
+      "week": "בשבוע",
+      "month": "בחודש"
+    },
+    "medicinesrelease": "תרופות בשחרור",
+    "resetPass": "התנתקות והתחברות מחדש",
+    "resetPassAlert": "אם ברצונך להתנתק ולהתחבר מחדש?",
+    "noMoreTasks": "אין הערות נוספות",
+    "noDataArriveFromClinic": "המידע הרפואי עוד לא הועבר לך מהיחידה המטפלת. אנא צרי עימם קשר",
+    "main_info": "מידע",
+    "info_warning": "אספנו במקום אחד את כל המידע הרלוונטי עבורך...",
+    "pleaseApprove_T_C": "נא לאשר את תנאי השימוש",
+    "forceUpdateText": "עדכונים קריטים ממתינים לך בחנות האפליקציות\nיש לעדכן את האפליקציה ",
+    "updateAppBtnText": "עדכן",
+    "version": "גרסה",
+    "fertilitationStr": "(מתוכן הופרו: ",
+    "discontinuedMessage": "ישנם עוברים /ביציות שעוד בעבודה והנתונים יכולים להשתנות כל עוד המחזור פתוח",
+    "chooseLanguage": "נא לבחור שפה מהרשימה:",
+    "SU": "א",
+    "MO": "ב",
+    "TU": "ג",
+    "WE": "ד",
+    "TH": "ה",
+    "FR": "ו",
+    "SA": "ש",
+    "months": [
+      "ינואר",
+      "פברואר",
+      "מרץ",
+      "אפריל",
+      "מאי",
+      "יוני",
+      "יולי",
+      "אוגוסט",
+      "ספטמבר",
+      "אוקטובר",
+      "נובמבר",
+      "דצמבר"
+    ],
+    "days": [
+      "יום א",
+      "יום ב",
+      "יום ג",
+      "יום ד",
+      "יום ה",
+      "יום ו",
+      "יום שבת"
+    ],
+    "atTime": "בשעה",
+    "min2chars": "2 תווים לפחות",
+    "min6Chars": "6 תווים לפחות",
+    "phoneError": "מספר טלפון לא תקין",
+    "emailError": "אימייל לא תקין",
+    "badID": "תעודת זהות לא תקינה",
+    "Blood_test": "בדיקות דם",
+    "Ultrasound": "אולטרסאונד",
+    "Blood_test_Ultrasound": "בדיקות דם, בדיקת אולטרסאונד",
+    "Oocytes_pumping": "שאיבת ביציות",
+    "Return_of_embryos": "החזרת עוברים",
+    "pump": "שאיבה",
+    "return": "החזרה",
+    "EGGTITLE": "סיכום מעקב ביציות",
+    "noResults": "אין תוצאות",
+    "noDatainCycle": "אין נתונים במחזור הנוכחי",
+    "yes": "כן",
+    "no": "לא",
+    "cycle": "מחזור",
+    "firstDayOfCycle": "יום ראשון של המחזור:",
+    "cycleStillOpenMessage": "טרם התקבל מידע. לפרטים נוספים צרי קשר עם היחידה.",
+    "HELPTOOLTIPDASHBOARD": "מסך זה מפרט את המשימות והבדיקות שחלות היום. תוכלי לאשר שלקחת תרופות וכן לראות הודעות שנשלחו אלייך מהצוות המטפל",
+    "HELPTOOLTIPCALENDAR": "פירוט תוכנית הטיפול בהתאם ללוחות הזמנים שניתנו לך. לחיצה על היום מפרטת מה נדרש באותו יום. אם אין משימות באותו יום לא נדרש כלום",
+    "HELPTOOLTIPRESULTS": "פירוט תוצאות בדיקות דם ומעקבי אולטראסאונד לפי תאריכים",
+    "HELPTOOLTIPEGGS": "מצב ביציות / עוברים לפי: כמה נשאבו, כמה הופרו, הוקפאו, הוחזרו והופסק הגידול. ניתן לבחור לפי תאריך הטיפול",
+    "notificationPlanUpdate": "התקבל עדכון לתוכנית",
+    "notificationMedicineUpdate": "התקבל עדכון לתרופות",
+    "notificationReleaseMedicineUpdate": "התקבל עדכון לתרופות בשחרור",
+    "notificationOvulationMedicineUpdate": "התקבל עדכון לתרופת גרימת ביוץ",
+    "notificationResultsUpdate": "התקבל עדכון לתוצאות",
+    "notificationOocytesUpdate": "התקבל עדכון למעקב ביציות",
+    "notificationFrozenOocytesUpdate": "התקבל עדכון למעקב ביציות קפואות",
+    "notificationMedicalTeamUpdate": "התקבלה הודעה מהצוות המטפל",
+    "notificationTaskUpdate": "התקבל עדכון למשימות",
+    "deleteMessage": "האם למחוק את ההודעה?",
+    "closedCycleWarning": "מחזור סגור, לא בתוקף.",
+    "closedCycleTodayText": "את צופה במחזור עבר, תוכלי לראות נתונים במסך תוכנית, סיכום או בדיקות",
+    "closedCycleButton": "חזרה למחזור נוכחי",
+    "setCameraPermissionFromSettings": "יש לאפשר גישה למצלמה בהגדרות כדי לסרוק את הברקוד.",
+    "userDoNotExistErrorMessage": "יש לאפס שם משתמש וסיסמה"
+  },
+  "Demonstration": {
+    "id": "111111",
+    "acode": {
+      "active": "true",
+      "expiration": "20201231"
+    },
+    "cycles": [
+      {
+        "ovulation": {
+          "doctor": "ד''ר אלון אופיר",
+          "medicine": "Ovitrelle 250Mcg",
+          "day": "20251020",
+          "hour": "10:10",
+          "take": "no"
+        },
+        "medicinesrelease": {
+          "medicinerelease": [
+            {
+              "dr": "Calderon",
+              "fromdate": "20251026",
+              "todate": "20251027",
+              "name": "Bravelle",
+              "type": "tab",
+              "sign": "mg",
+              "quantity": "3",
+              "times": "2",
+              "period": "day",
+              "strong": "3.75"
+            },
+            {
+              "dr": "Ben-Haim",
+              "fromdate": "20251008",
+              "todate": "20251023",
+              "name": "Bravelle",
+              "type": "amp",
+              "sign": "mg",
+              "quantity": "1",
+              "times": "3",
+              "period": "week",
+              "strong": "3.50"
+            }
+          ]
+        },
+        "firstdays": {
+          "firstdaycycle": "20251011",
+          "firstdaysupport": "0",
+          "firstdaysuppress": "20250129"
+        },
+        "summary": {
+          "type": "1",
+          "day": "20251009",
+          "pumping": "5",
+          "fertilitation": "3",
+          "injection": "4",
+          "discontinued": "2",
+          "frozen": "0",
+          "return": {
+            "fresh": "3",
+            "thawed": "0",
+            "day": "20250312"
+          },
+          "returnagain": {
+            "fresh": "0",
+            "thawed": "0",
+            "day": "0"
+          },
+          "defrost": "0",
+          "defrostdate": "0",
+          "defrostfertilitation": "0",
+          "defrostdiscontinued": "0",
+          "donation": "0",
+          "ovaryfrozeninhospital": null
+        },
+        "dates": [
+          {
+            "date": "20251020",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "1",
+            "infoday": []
+          },
+          {
+            "date": "20251030",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251031",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251001",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251002",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251003",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251004",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251005",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251006",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251007",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251008",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251009",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251010",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251011",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "0",
+            "infoday": []
+          },
+          {
+            "date": "20251012",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251013",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [
+                {
+                  "name": "PROG",
+                  "result": "22.37"
+                },
+                {
+                  "name": "LH",
+                  "result": "2.8"
+                },
+                {
+                  "name": "E2",
+                  "result": "392"
+                }
+              ],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251014",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251015",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251016",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251017",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "2",
+            "infoday": []
+          },
+          {
+            "date": "20251018",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251019",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "2",
+            "infoday": []
+          },
+          {
+            "date": "20251020",
+            "medicines": [
+              {
+                "name": "Ovitrelle 250mcg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251021",
+            "medicines": [],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251022",
+            "medicines": [],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "3",
+            "infoday": []
+          },
+          {
+            "date": "20251023",
+            "medicines": [],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251024",
+            "medicines": [],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251025",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "4",
+            "infoday": []
+          },
+          {
+            "date": "20251026",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [
+                {
+                  "name": "PROG",
+                  "result": "30.6"
+                },
+                {
+                  "name": "LH",
+                  "result": "1.2"
+                },
+                {
+                  "name": "E2",
+                  "result": "123"
+                }
+              ],
+              "ultrasound": [
+                {
+                  "name": "רירית הרחם",
+                  "result": "דקה"
+                },
+                {
+                  "name": "שחלה ימין",
+                  "result": "זקיקים קטנים"
+                },
+                {
+                  "name": "שחלה שמאל",
+                  "result": "זקיקים קטנים,10"
+                }
+              ]
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251027",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251028",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251001",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [
+                {
+                  "name": "PROG",
+                  "result": "3.2"
+                },
+                {
+                  "name": "LH",
+                  "result": "2.7"
+                },
+                {
+                  "name": "E2",
+                  "result": "1278"
+                }
+              ],
+              "ultrasound": [
+                {
+                  "name": "רירית הרחם",
+                  "result": "8.6"
+                },
+                {
+                  "name": "שחלה ימין",
+                  "result": "14,5,11.5,10"
+                },
+                {
+                  "name": "שחלה שמאל",
+                  "result": "זקיקים קטנים"
+                }
+              ]
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251002",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251003",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [
+                {
+                  "name": "PROG",
+                  "result": "3.6"
+                },
+                {
+                  "name": "LH",
+                  "result": "3.2"
+                },
+                {
+                  "name": "E2",
+                  "result": "2433"
+                }
+              ],
+              "ultrasound": [
+                {
+                  "name": "רירית הרחם",
+                  "result": "11.9"
+                },
+                {
+                  "name": "שחלה ימין",
+                  "result": "22,17,5,16,10"
+                },
+                {
+                  "name": "שחלה שמאל",
+                  "result": "זקיקים קטנים,3"
+                }
+              ]
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251004",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251005",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251006",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251007",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "0",
+            "infoday": [
+              {
+                "dr": "ד''ר אלון אופיר",
+                "message": " הזריקה הראשונה לפי פרוטוקול טיפול זה, אנא ודאי שיש ברשותך פדים אלכוהולים, קופסת מחטים, מזרקים רלוונטים ותרופות ההזרקה שקיבלת\r\n"
+              },
+              {
+                "dr": "ד''ר אלון אופיר",
+                "message": "התקבלה ההתחיבות מקופת החולים"
+              }
+            ]
+          },
+          {
+            "date": "20251008",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251009",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251010",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251011",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20251012",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          }
+        ],
+        "isopen": "true",
+        "medicalcenterid": "1"
+      }
+    ],
+    "ovaryfrozeninhospital": "0",
+    "spermfrozeninhospital": "0",
+    "medicalcentername": "בני ציון",
+    "notifications": {
+      "pushnumber": [
+        "0"
+      ],
+      "messages": [
+        {
+          "time": "202503071236",
+          "message": "קיים עדכון לתרופות",
+          "see": "yes"
+        },
+        {
+          "time": "202503071238",
+          "message": "התקבל עדכון לתוכנית",
+          "see": "yes"
+        },
+        {
+          "time": "202503071238",
+          "message": "קיים עדכון לתרופות",
+          "see": "yes"
+        },
+        {
+          "time": "202503071358",
+          "message": "התקבלה הודעה מהצוות המטפל",
+          "see": "yes"
+        },
+        {
+          "time": "202503071405",
+          "message": "התקבל עדכון לתוכנית",
+          "see": "yes"
+        },
+        {
+          "time": "202503071425",
+          "message": "קיים עדכון לתרופות",
+          "see": "yes"
+        },
+        {
+          "time": "202503071433",
+          "message": "התקבל עדכון לתוכנית",
+          "see": "yes"
+        }
+      ]
+    },
+    "tasklist": {
+      "task": [
+        {
+          "todo": "להביא התחיבות קופת חולים",
+          "dateupto": "20250301",
+          "done": "no",
+          "executiondate": "20250220",
+          "remarks": "הקופה משלמת חצי טיפול"
+        },
+        {
+          "todo": "להביא תיק רפואי",
+          "dateupto": "20250210",
+          "done": "no",
+          "executiondate": "20250205",
+          "remarks": "אין"
+        }
+      ]
+    }
+  },
+  "Instructions": {
+    "instructions": [
+      {
+        "title": "לפני שאיבה",
+        "data": [
+          {
+            "text": "מטופלת יקרה,\nאנו מאחלים לכם הצלחה רבה בתהליך הטיפול ומקווים אתכם לבדיקת הריון חיובית"
+          },
+          {
+            "text": "עם ההודעה על מועד שאיבת הביציות (בדרך כלל יומיים לפני השאיבה):",
+            "type": "subTitle"
+          },
+          {
+            "text": " נא בדקי שוב אם דאגת להתחייבות עבור"
+          },
+          {
+            "text": "שלב א', שלב ב', מיקרומניפולציה ויום אשפוז (במידה ונדרש).",
+            "type": "dot"
+          },
+          {
+            "text": "אם הנך מעוניינת בפיקוח פוע״ה, הודיעי על כך לאחות/ מזכירה, ותאמי זאת עם פוע״ה",
+            "type": "dot"
+          },
+          {
+            "text": "שאיבת הביציות:",
+            "type": "subTitle"
+          },
+          {
+            "text": " השאיבה מתבצעת בהרדמה כללית ובהנחיית אולטרסאונד"
+          },
+          {
+            "text": " במידה והשאיבה תתבצע בשעות הבוקר :\n תקבלי את זריקת הביוץ בלבד (יומיים לפני השאיבה), המועד המדוייק יינתן לך ע״י הצוות הרפואי: \n Ovitrelle 250 mg  (אוביטרל) בהזרקה תת עורית במינון שנקבע לך או Decapeptyl 0.1 (דקפפטיל)  בהזרקה תת עורית במינון שנקבע לך אוPregnyl 5000 (פרגניל) בהזרקה תוך שרירית (עכוז) במינון שנקבע לך",
+            "type": "dot"
+          },
+          {
+            "text": "אם טופלת ב Cetrotide(צטרוטייד) / ב Orgalutran(אורגלוטרן) קחי מנה אחרונה לפי ההוראות שקיבלת.",
+            "type": "dot"
+          },
+          {
+            "text": " אם טופלת במשאף סיימי מנה אחרונה בשעה 20:00 בערב לפני השאיבה",
+            "type": "dot"
+          },
+          {
+            "text": "  הקפידי למלא את הוראות נטילת התרופות בהתאם לימים ולשעות שנקבעו לך",
+            "type": "dot"
+          },
+          {
+            "text": " קיום יחסים מותר עד יומיים לפני השאיבה",
+            "type": "dot"
+          },
+          {
+            "text": "ערב שאיבת הביציות:",
+            "type": "subTitle"
+          },
+          {
+            "text": "בערב לפני השאיבה את יכולה לאכול ארוחת ערב קלה בשעה 20:00-21:00,  מותר לשתות עד שעה  24:00 (12 בלילה), ומשעה זו את מתבקשת להישאר בצום מוחלט כולל  שתייה ועישון. \nאם את נוטלת תרופות באופן קבוע, הנך מתבקשת להתייעץ עם האחות ולקבל הנחיה לנטילת התרופות בהתאם."
+          },
+          {
+            "text": "יום שאיבת הביציות:",
+            "type": "subTitle"
+          },
+          {
+            "text": "עלייך להגיע ליחידת IVF בשעה וביום שנקבעו לך עם בן הזוג. נשים המטופלות ללא בן זוג, מומלץ להגיע עם מלווה.",
+            "type": "dot"
+          },
+          {
+            "text": "אחות היחידה אשר תלווה אותך בזמן השאיבה, תקבל ותכין אותך לפעולה. ימדדו חום, לחץ דם, דופק, וכמו כן תתבקשי לחתום על טפסי הסכמה לשאיבה ולהרדמה.",
+            "type": "dot"
+          },
+          {
+            "text": " בן זוגך, בשלב זה עדיין יוכל לשהות במחיצתך.יקבל כלי למתן זרע שעליו מדבקה הנושאת את שמך ומדבקה הנושאת את שמו, תוך הדרכה והנחיה לגבי שעת מתן וכו'.",
+            "type": "dot"
+          },
+          {
+            "text": " ניתן להביא זרע מהבית במידה ומתאפשר להגיע ליחידה עד 40 דקות מאז מתן הזרע ובתיאום עם האחיות.באם מקום מגוריכם רחוק יותר, ניתן לקבל כלי סטרילי מראש ותמיסה מיוחדת לשימור הזרע.",
+            "type": "dot"
+          },
+          {
+            "text": " נא להימנע מלהביא חפצי ערך / תכשיטים. יש לדאוג להסיר לק, להגיע ללא איפור ובשימוש בעדשות מגע להצטייד בכלי אחסון.",
+            "type": "dot"
+          },
+          {
+            "text": " בזמן השאיבה בן הזוג / המלווה ימתין בחדר ההמתנה.",
+            "type": "dot"
+          },
+          {
+            "text": "לאחר שאיבת הביציות: ",
+            "type": "subTitle"
+          },
+          {
+            "text": "תועברי לחדר התעוררות הצמוד לחדר הפעולות למשך כשעתיים עד שלוש שעות.",
+            "type": "dot"
+          },
+          {
+            "text": "תשהי בהשגחת אחיות עד התאוששות מלאה.",
+            "type": "dot"
+          },
+          {
+            "text": " לתשומת ליבך! תתעוררי כשבידך עירוי נוזלים בפרק זמן זה דפנות המיטה תהיינה מורמות לשם בטיחותך.",
+            "type": "dot"
+          },
+          {
+            "text": " לקראת השחרור, תקבלי דיווח מאחות היחידה / רופא היחידה על מספר הביציות שנשאבו.",
+            "type": "dot"
+          },
+          {
+            "text": " תשתחררי לביתך מצוידת במכתב שחרור לאחר קבלת הנחיות להתנהלות בהמשך יום זה.",
+            "type": "dot"
+          },
+          {
+            "text": " לתשומת לבך, הנהיגה ביום זה אסורה.",
+            "type": "dot"
+          },
+          {
+            "text": "יום למחרת שאיבת הביציות:",
+            "type": "subTitle"
+          },
+          {
+            "text": "תוכלי לקבל מידע לגבי קיום הפריות ומספרן. כמו כן יקבע לך מועד החזרת העוברים.",
+            "type": "dot"
+          },
+          {
+            "text": " דאגי שתכשיר התמיכה יהיה ברשותך.(נרות Endometrin(אנדומטרין) / נרות Utrogestan(אוטרוגסטן) / זריקות Geston(גסטון) / זריקות Ovitrelle (אוביטרל)",
+            "type": "dot"
+          },
+          {
+            "text": "הביאי את התכשיר שקיבלת ביום ההחזרה.",
+            "type": "dot"
+          },
+          {
+            "text": "למידע נוסף או שאלות אנא פני לצוות המטפל",
+            "type": "dot"
+          }
+        ]
+      },
+      {
+        "title": "אחרי שאיבה",
+        "data": [
+          {
+            "text": "מטופלת יקרה,\n אנו מאחלים לכם הצלחה רבה בתהליך הטיפול ומקווים אתכם זה עתה שוחררת לאחר שאיבת ביציות מצוידת במכתב שחרור רפואי. בנוסף, ברצוננו להסב את תשומת ליבך למספר תופעות שעלולות להופיע היום ובימים הקרובים!"
+          },
+          {
+            "text": "היום, יום שאיבת הביציות:",
+            "type": "subTitle"
+          },
+          {
+            "text": "  מומלץ לנוח ולא לבצע עבודות החורגות מהשגרה. כמו כן, רצוי לא להישאר לבד.",
+            "type": "dot"
+          },
+          {
+            "text": " אפשרי לאכול כרגיל, מומלץ להקפיד על שתייה.",
+            "type": "dot"
+          },
+          {
+            "text": "היגיינה - אין מניעה ואפשר (רצוי) להתקלח.",
+            "type": "dot"
+          },
+          {
+            "text": " דימום – דימום נרתיקי קל או הפרשה דמית קלה הם תופעה מוכרת ונורמאלית שאינה מצריכה כל התערבות. במידה והדימום מתגבר, מומלץ לפנות לרופאי מ.ר.מ לבדיקה. בעת הצורך, לקבל הפנייה לחדר מיון.",
+            "type": "dot"
+          },
+          {
+            "text": " קוצר נשימה – עלול להופיע בעקבות הגירוי השחלתי אותו עברת.",
+            "type": "dot"
+          },
+          {
+            "text": "הופעת חום – הינה תופעה נדירה יחסית היכולה להצביע על התפתחות  זיהום.במקרה זה, עלייך לפנות לבדיקת רופא.",
+            "type": "dot"
+          },
+          {
+            "text": " כאבים – שאיבת הביציות הינה פעולה כירורגית חודרנית העלולה לגרום לכאב אשר בעזרת משכך כאבים בדרך כלל  יחלוף. הכאבים עלולים להיגרם עקב גירוי השחלות טרם הפעולה  ויכולים להיות מלווים בבטן תפוחה. (הכאבים עלולים להימשך ואף להתגבר לאחר החזרת עוברים).באם נטלת משכך כאבים והכאבים המשיכו והתגברו יש לפנות לרופא ו/או מ.ר.מ בכדי להיבדק ובעת הצורך לקבל הפניה לחדר מיון.לתשומת ליבך – הגעה לחדר מיון ללא הפנייה ממ.ר.מ או מרופא כרוכה בתשלום.",
+            "type": "dot"
+          },
+          {
+            "text": "  פעילות – כאמור ביום השאיבה רצויה מנוחה והנהיגה אסורה.למחרת השאיבה – רמת הפעילות אליה תוכלי לחזור תלויה במספר גורמים הקשורים לגירוי השחלתי ולשאיבת הביציות אותה עברת.הסבר והדרכה לגבי פעילות מתאימה תקבלי מהצוות הרפואי לפני שחרורך.",
+            "type": "dot"
+          }
+        ]
+      },
+      {
+        "title": "לפני החזרה",
+        "data": [
+          {
+            "text": "  מטופלת יקרה,\nתהליך החזרת העוברים מתבצע בדרך כלל כ-48 עד 72 שעות לאחר שאיבת הביציות.כאמור, דיווח על מספר ההפריות ומועד העברת העוברים יימסר למחרת שאיבת הביציות, במהלך השבוע. "
+          },
+          {
+            "text": "הנחיות לקראת החזרת עוברים",
+            "type": "subTitle"
+          },
+          {
+            "text": "פעולה זו מתבצעת ללא הרדמה! \n עם הגיעכם בבוקר, אחות היחידה תזהה אתכם ותדאג להפגישכם עם הרופא לשיחה אשר במהלכה תקבלו דיווח על מספר ההפריות המעודכן וכן הסבר על איכות העוברים. במהלך הפגישה, הרופא ימליץ על מספר העוברים שיועברו לרחם וזאת בכפוף ובהתאם להנחיות משרד הבריאות. \n\nעל שני בני הזוג יהיה לחתום על טופס ההסכמה להעברת העוברים.\nלאחר שלב זה, תתבקשי להתלבש כמקובל לקראת כניסה לחדר ניתוח (כותונת, כובע, ערדליים) וכך בן זוגך.\nבחדר ניתוח תזדהי בפני האמבריולוגית כאשר תתבקשי לומר את שמך ומספר תעודת הזהות.\nבבוקר יום זה, אכילה ושתייה מותרים ואף מומלצים.\n\nברוב המקרים, העברת העוברים מתבצעת בהנחיית אולטרסאונד, לכן הינך מתבקשת לשתות ולא להטיל שתן עד גמר הפעולה (אלא אם קיבלת הנחיה אחרת).מילוי שלפוחית השתן נועד להדגים טוב יותר את הרחם.\nהתהליך עצמו אורך מספר דקות. כאשר במהלך הפעולה  העוברים מוטענים בתוך קטטר מיוחד (דק) אשר מוחדר דרך צוואר הרחם לתוך חלל הרחם.לאחר הטענת העוברים במעבדה ולפני העברתן יבוצע זיהוי נוסף!\n\nאנו ממליצים ומזמינים אותך למרות החשש המלווה וההתרגשות הרבה, להיות כמה שיותר רגועה ורפויה, בכדי להקל את ההליך.\n לאחר הפעולה בחדר ניתוח, תועברי להמשך מנוחה קצרה בחדר ההתעוררות. ברשותך, נרות וגינאליים או תכשיר פרוגסטרון אחר המשמש לתמיכה, הינך מוזמנת להביאו ולאחר הפעולה תוכלי להתחיל להשתמש בו לפי שיקול דעתך (אצלנו או בבית).\n\nלתשומת ליבך – לעיתים ההמתנה לביצוע הפעולה עלולה להמשך זמן מה. הנך מתבקשת להיערך בהתאם.\nבעת שחרורך, תקבלי מכתב סיכום ובו הוראות להמשך. וכן הדרכה, הסבר ומענה לשאלות מהאחות המשחררת\n\nבשאלות נוספות אנא אל תהססי לפנות לצוות המטפל."
+          }
+        ]
+      },
+      {
+        "title": " אחרי החזרה",
+        "data": [
+          {
+            "text": "מטופלת יקרה,\nזהו רגע מרגש ומלא ציפיות... לאחר שעובר / עוברים הוחדרו לרחמך ובסיום תהליך ארוך ומורכב.כולנו מאחלים לך בהצלחה!,\nבכדי לוודא את תוצאות התהליך תבצעי בדיקת דם להריון בעוד כ 12-14 יום, במועד המצוין במכתב השחרור."
+          },
+          {
+            "text": "המלצות:",
+            "type": "subTitle"
+          },
+          {
+            "text": "במכתב השחרור יצוין תכשיר הפרוגסטרון ומינונו המומלץ עבורך לתמיכה עד ביצוע בדיקת הדם. אין להפסיקו מבלי להיוועץ עם רופא (הנחיות לשימוש תקבלי מרופא ואחות היחידה)",
+            "type": "dot"
+          },
+          {
+            "text": "במקרה של דימום יש להתייעץ עם הצוות המטפל ולפעול בהתאם להנחיות. לעיתים נמליץ להגיע ליחידה/ לחדר מיון/ לרופא נשים.",
+            "type": "dot"
+          },
+          {
+            "text": " אין צורך לשכב במיטה. יחד עם זאת רצוי להימנע מפעילות מאומצת.בשאר הימים עד ביצוע בדיקת הדם אפשר לחזור לחיים שגרתיים.",
+            "type": "dot"
+          },
+          {
+            "text": " אין מניעה לרחצה בבריכה או בים.",
+            "type": "dot"
+          },
+          {
+            "text": "רצוי להקפיד על שתייה מספקת.",
+            "type": "dot"
+          },
+          {
+            "text": "ניתן לחזור לפעילות ספורטיבית אותה ביצעת לפני השאיבה. נשים שלא ביצעו פעילות גופנית עד כה, מומלץ לא להתחיל בימים אלה.",
+            "type": "dot"
+          },
+          {
+            "text": "בשלושת הימים הראשונים מומלץ לא לקיים יחסים ולאחר מכן אין מניעה מסיבה רפואית.",
+            "type": "dot"
+          },
+          {
+            "text": " תיתכן תחושה של בטן תפוחה וייתכן כאב קל.במידה וכאב הבטן מתגבר, עם או בלי קוצר נשימה, או מיעוט שתן- עלייך לפנות ליחידה בשעות הפעילות או למוקד רפואי/ חדר מיון.",
+            "type": "dot"
+          },
+          {
+            "text": " בכל התלבטות... ו/או שאלה אנא פני לצוות המטפל"
+          }
+        ]
+      }
+    ]
+  },
+  "Version": 18
+}

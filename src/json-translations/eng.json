@@ -1,0 +1,1474 @@
+{
+  "LanguageName": "English",
+  "key": "eng",
+  "Direction": "ltr",
+  "Strings": {
+    "Home": "Home",
+    "about": "About",
+    "aboutText": "The Eve4u is a mobile app for fertility patients. It is used for tracking the fertility treatment protocol provided to you, medical team instructions, U.S. and blood work results and timetables. You can receive reminders for taking medications and also get information about the status of your eggs and embryos.",
+    "account": "Account",
+    "agreeToTerms": "I agree to the",
+    "agreeToTerms_2": "terms of use",
+    "andMore": "and more",
+    "viewInfo": "Info",
+    "infoMenu": "Information",
+    "hotLine": "Support",
+    "view": "View",
+    "appGuide": "Instructions given by the unit",
+    "appInfo": "\n\n The application displays the following information:",
+    "appTitle": "Eve4u  -mobile app for fertility patients",
+    "barcodeScan": "Scan barcode",
+    "cancel": "Cancel",
+    "freshMany": "Fresh",
+    "didntGet": "I have not received a code",
+    "otpCodeWrong": "The code entered is not valid",
+    "sendAgain": "Please send the code again\n",
+    "otpValidateContent": "Please enter the code you received at the number.",
+    "defrostedManyWraped": " (Thawed)",
+    "secondaryReturnOnDate": "Transferred on",
+    "fertelizedDefrosted": "Fertilized",
+    "secondaryReturn": "Second Transfer ",
+    "defrostedMany": "Thawed",
+    "cardExpiration": "Card Exp.",
+    "cardNumber": "Card no.",
+    "discontinued": "Discontinued",
+    "frozen": "Frozen",
+    "injected": "Injected",
+    "defrosted": "Thawed",
+    "defrostedOn": "Thawed  on ",
+    "remainedFrozen": "Remains frozen  ",
+    "fertilized": "Fertilized",
+    "pumped": "Retrieved",
+    "donated": "Donated",
+    "pumpedOnDate": "Retrieved on ",
+    "confirm": "Confirm",
+    "continue": "Continue",
+    "cvv": "CVV(printed on your credit card)",
+    "demo": "Demo",
+    "done": "Done",
+    "generalError": "Error",
+    "destroyNeedle": "Make sure to dispose of the needle and syringe as needed",
+    "emailAddress": "info@obgsoft.com",
+    "errorCantSetFutureDate": "It is impossible to update for a future date",
+    "error_message_SMS": "One of the details entered is incorrect. Please try again or contact the medical team for further assistance ",
+    "fullName": "Full Name",
+    "getIn": "Log in",
+    "gotIt": "OK. Got it!",
+    "ID_content": "Enter your ID number and mobile phone number as updated in the clinic. We will send you a one-time code to your cell-phone.",
+    "ID_placeHolder": "9-digit ID number",
+    "idConnect": "Log in with your ID",
+    "infoComment": "All the information displayed is real-time information, including notifications for any updates and changes in the plan. Using the application will help you stay updated at all times on your medical treatment details, ensuring that you've performed all the required actions correctly and on time. The application is secure according to strict security regulations for maintaining medical confidentiality. Information is updated only when the treating physician/team uses the program",
+    "injectionContent": "Most of the injections are subcutaneous and are administered in the abdomen. The method of administration varies among the different injections. There are syringes designed like pens that contain a pre-filled substance with adjustable dosages. There are also injection kits that include a syringe and medication, with the doctor's instructions to use from the vial in varying amounts. Each type of syringe and medication has an explanatory leaflet, which can be obtained from the unit nurse. Please be sure to thoroughly read the manufacturer's leaflets that come with the medications.\n\nOnce the injection instructions are given, the doctor will direct you to a nurse for a detailed explanation of the injection process. For those who prefer not to self-administer injections for various reasons, they can go to the nurse to perform the injections. It's important to note that for each type of medication, there are instruction leaflets describing the usage of the medication according to the manufacturer's recommendations.",
+    "injectionGuide": "Injection instructions",
+    "injectionsAndMedicine": "Injections and medicine",
+    "injectionTitle": "General injection guidelines for various injections",
+    "inputCardNumber": "Enter the card number",
+    "inputFullName": "Enter full name",
+    "inputMessage": "Enter your message here",
+    "inputPhoneNumber": "Enter a phone number",
+    "inputUserName": "Enter username",
+    "alerts": "Alerts",
+    "insertNeedle": "Insert the needle into the injection site in your abdomen",
+    "instructions": "Retrieval and E.T",
+    "labResults": "Lab results",
+    "login": "Login",
+    "loginToSystem": "Login to the system",
+    "mailto": "info@obgsoft.com?subject=Contact us",
+    "medicineAndInjections": "Medication and injections",
+    "medicineReminder": "Information and reminders for taking medication",
+    "messageContent": "Message content",
+    "name": "Name",
+    "noClinicMessages": "No messages from the clinic",
+    "messagesFromClinicTitle": "Messages from the clinic",
+    "dosage": "Dosage",
+    "noMedicineOrInjectionsToday": "No medication or injections for today",
+    "noTaksForToday": "No tasks for today",
+    "password": "Password",
+    "passwordRepeat": "Repeat Password ",
+    "passwordValidation": "The password should be at least 6 characters",
+    "paymentMethodNotReady": "Payment method not updated",
+    "paymentMethodReady": "Payment method updated",
+    "paymentStartsMessage": "Billing will begin at the end of the trial period",
+    "phone_placeHolder": "Mobile phone number",
+    "phoneNumber": "Phone number",
+    "pleaseRepeatPassword": "Please re-enter the chosen password",
+    "prepareEquipment": "Prepare all the required equipment. If mixing is necessary, follow the manufacturer's instructions.",
+    "protocolInfo": "Information about the treatment protocol",
+    "pumpInfo": "Information about retrieving and transferring embryos",
+    "register": "Registration",
+    "registration": "Registration",
+    "requiredActions": "Required actions",
+    "scanBarcodeInstructions": "To activate, accept the terms of use and then scan the barcode you received from the clinic or enter your ID.",
+    "scheduleStr": "Schedules and reminders for required tests",
+    "send": "Send",
+    "start": "Start",
+    "step1": "Step 1",
+    "step2": "Step 2",
+    "step3": "Step 3",
+    "step4": "Step 4",
+    "subscriptionValidDate": "Subscription valid until: ",
+    "support": "Support",
+    "tasks": "Tasks",
+    "technicalSupport": "Technical support",
+    "terms": "Terms",
+    "totalMonthlyPaymenr": "Total payment: 20.00 USD per month",
+    "ultrasoundAndBloodTest": "Blood test, Ultrasound",
+    "updatedEggsStatus": "Updated status of the eggs",
+    "updatePayment": "Update payment method",
+    "username": "Username ",
+    "washHands": "Wash your hands thoroughly",
+    "whatAreWeDoingToday": "What are we doing today",
+    "today": "What are we doing today",
+    "thisDay": "Today",
+    "plan": "Plan",
+    "results": "Results",
+    "TreatmentPlane": "Treatment plan",
+    "Result": "Test results",
+    "Summary": "Eggs / Embryos Status",
+    "finalSummary": "Summary",
+    "wrongUsernameOrPassword": "Invalid username or password",
+    "x": "X",
+    "lastUpdate": "Last update",
+    "changeMedicinText": "The action cannot be canceled. Do you want to confirm taking the medication?",
+    "cantChangeMedicinText": "The action cannot be canceled.",
+    "ovulationDaytitle": "Ovulation",
+    "ovulationReminderTitle": "Reminder",
+    "pleaseNote": "Please note! on",
+    "at": "at",
+    "youNeedToEnject": "you need to inject",
+    "frozenSummery": "Frozen eggs and embryos",
+    "thereAre": "There are ",
+    "eggsForFuter": "eggs/embryos frozen for future procedures",
+    "count": "Count",
+    "times": "Times",
+    "fromDate": "From",
+    "toDate": "to",
+    "medicinesreleasePeriod": {
+      "day": "day",
+      "week": "week",
+      "month": "month"
+    },
+    "medicinesrelease": "medication on discharge",
+    "resetPass": "Log out and log back in",
+    "resetPassAlert": "Do you want to log out and log back in?",
+    "noMoreTasks": "No additional comments",
+    "noDataArriveFromClinic": "Medical information has not yet been transferred from the treating unit. Please contact them.",
+    "main_info": "Information",
+    "info_warning": "We gathered all relevant information for you in one place...",
+    "pleaseApprove_T_C": "Accept the terms of use",
+    "forceUpdateText": "Critical updates are waiting for you in the app store.\n Please update the application",
+    "updateAppBtnText": "Update",
+    "version": "Version",
+    "fertilitationStr": "(of which fertilized: ",
+    "discontinuedMessage": "*There are embryos/eggs that are not suitable for freezing or return. For more information, contact the treating unit.",
+    "chooseLanguage": "Select a language from the list:",
+    "SU": "Sun",
+    "MO": "Mon",
+    "TU": "Tue",
+    "WE": "Wed",
+    "TH": "Thu",
+    "FR": "Fri",
+    "SA": "Sat",
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "days": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "atTime": "at",
+    "min2chars": "At least 2 characters",
+    "min6Chars": "At least 6 characters",
+    "phoneError": "Invalid phone number",
+    "emailError": "Invalid Email",
+    "badID": "Invalid ID number",
+    "Blood_test": "Blood test",
+    "Ultrasound": "Ultrasound",
+    "Blood_test_Ultrasound": "Blood test & Ultrasound",
+    "Oocytes_pumping": "Egg Retrieval",
+    "Return_of_embryos": "Embryo Transfer",
+    "pump": "OPU",
+    "return": "E.T",
+    "EGGTITLE": "Ova Tracking Summary",
+    "noResults": "No Results",
+    "noDatainCycle": "No Data For Current Cycle",
+    "yes": "YES",
+    "no": "NO",
+    "cycle": "Cycle",
+    "firstDayOfCycle": "First Day of Cycle:",
+    "cycleStillOpenMessage": "Information has not been received yet. For additional details, please contact the clinic.",
+    "HELPTOOLTIPDASHBOARD": "This screen specifies the tasks and tests scheduled for today. You can confirm that you've taken medications and view messages sent to you by the treatment team.",
+    "HELPTOOLTIPCALENDAR": "Detailed treatment plan according to the timetables provided to you. Clicking on the day specifies what is required on that day. If there are no tasks on that day, nothing is required.",
+    "HELPTOOLTIPRESULTS": "Details of blood test results and ultrasound follow-ups by dates.",
+    "HELPTOOLTIPEGGS": "Status of oocytes/embryos according to how many were retrieved, how many were fertilized, frozen, returned, and stopped during the development. You can view this information by the treatment date.",
+    "notificationPlanUpdate": "There is an update to your plan",
+    "notificationMedicineUpdate": "There is an update to your medication",
+    "notificationReleaseMedicineUpdate": "There's an update in the medication you received upon discharge",
+    "notificationOvulationMedicineUpdate": "There's an update regarding the ovulation medication",
+    "notificationResultsUpdate": "Test results have been updated",
+    "notificationOocytesUpdate": "The status of the eggs/embryos has been updated",
+    "notificationFrozenOocytesUpdate": "The status of the frozen eggs/embryos has been updated",
+    "notificationMedicalTeamUpdate": "A message has been received from the treating team",
+    "notificationTaskUpdate": "There is an update to your tasks",
+    "deleteMessage": "Do you wish to delete the message?",
+    "closedCycleWarning": "Closed cycle, not active",
+    "closedCycleTodayText": "This is a past cycle. You can view data on the treatment plan, summary or test results.",
+    "closedCycleButton": "Return to the current cycle",
+    "setCameraPermissionFromSettings": "Camera access must be enabled in settings to scan the barcode.",
+    "userDoNotExistErrorMessage": "There is a need to reset the username and password"
+  },
+  "Demonstration": {
+    "id": "111111",
+    "acode": {
+      "active": "true",
+      "expiration": "20201231"
+    },
+    "cycles": [
+      {
+        "ovulation": {
+          "doctor": "Dr. Alon Ofir",
+          "medicine": "Ovitrelle 250Mcg",
+          "day": "20190220",
+          "hour": "10:10",
+          "take": "no"
+        },
+        "medicinesrelease": {
+          "medicinerelease": [
+            {
+              "dr": "Calderon",
+              "fromdate": "20190426",
+              "todate": "20190427",
+              "name": "Bravelle",
+              "type": "tab",
+              "sign": "mg",
+              "quantity": "3",
+              "times": "2",
+              "period": "day",
+              "strong": "3.75"
+            },
+            {
+              "dr": "Ben-Haim",
+              "fromdate": "20210425",
+              "todate": "20210427",
+              "name": "Bravelle",
+              "type": "amp",
+              "sign": "mg",
+              "quantity": "1",
+              "times": "3",
+              "period": "week",
+              "strong": "3.50"
+            }
+          ]
+        },
+        "firstdays": {
+          "firstdaycycle": "20190211",
+          "firstdaysupport": "0",
+          "firstdaysuppress": "20190129"
+        },
+        "summary": {
+          "type": "1",
+          "day": "20190309",
+          "pumping": "5",
+          "fertilitation": "3",
+          "injection": "4",
+          "discontinued": "2",
+          "frozen": "0",
+          "return": {
+            "fresh": "3",
+            "thawed": "0",
+            "day": "20190312"
+          },
+          "returnagain": {
+            "fresh": "0",
+            "thawed": "0",
+            "day": "0"
+          },
+          "defrost": "0",
+          "defrostdate": "0",
+          "defrostfertilitation": "0",
+          "defrostdiscontinued": "0",
+          "donation": "0",
+          "ovaryfrozeninhospital": null
+        },
+        "dates": [
+          {
+            "date": "20201020",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "1",
+            "infoday": []
+          },
+          {
+            "date": "20190130",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190131",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190201",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190202",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190203",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190204",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190205",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190206",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190207",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190208",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190209",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190210",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190211",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "0",
+            "infoday": []
+          },
+          {
+            "date": "20190212",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190213",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [
+                {
+                  "name": "PROG",
+                  "result": "22.37"
+                },
+                {
+                  "name": "LH",
+                  "result": "2.8"
+                },
+                {
+                  "name": "E2",
+                  "result": "392"
+                }
+              ],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190214",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190215",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190216",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190217",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "2",
+            "infoday": []
+          },
+          {
+            "date": "20190218",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190219",
+            "medicines": [
+              {
+                "name": "Decapeptyl 0.05mg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              },
+              {
+                "name": "Pergoveris",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "2",
+            "infoday": []
+          },
+          {
+            "date": "20190220",
+            "medicines": [
+              {
+                "name": "Ovitrelle 250mcg",
+                "type": "",
+                "quantity": "1",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190221",
+            "medicines": [],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190222",
+            "medicines": [],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "3",
+            "infoday": []
+          },
+          {
+            "date": "20190223",
+            "medicines": [],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190224",
+            "medicines": [],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190225",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "4",
+            "infoday": []
+          },
+          {
+            "date": "20190226",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [
+                {
+                  "name": "PROG",
+                  "result": "30.6"
+                },
+                {
+                  "name": "LH",
+                  "result": "1.2"
+                },
+                {
+                  "name": "E2",
+                  "result": "123"
+                }
+              ],
+              "ultrasound": [
+                {
+                  "name": "cervix",
+                  "result": "ectropion"
+                },
+                {
+                  "name": "right ovary",
+                  "result": "small follicular"
+                },
+                {
+                  "name": "left ovary",
+                  "result": "7,4,10"
+                }
+              ]
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190227",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190228",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190301",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [
+                {
+                  "name": "PROG",
+                  "result": "3.2"
+                },
+                {
+                  "name": "LH",
+                  "result": "2.7"
+                },
+                {
+                  "name": "E2",
+                  "result": "1278"
+                }
+              ],
+              "ultrasound": [
+                {
+                  "name": "Endometrium",
+                  "result": "8.6"
+                },
+                {
+                  "name": "right ovary",
+                  "result": "14,5,11,10"
+                },
+                {
+                  "name": "left ovary",
+                  "result": "2,7,3"
+                }
+              ]
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190302",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190303",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [
+                {
+                  "name": "PROG",
+                  "result": "3.6"
+                },
+                {
+                  "name": "LH",
+                  "result": "3.2"
+                },
+                {
+                  "name": "E2",
+                  "result": "2433"
+                }
+              ],
+              "ultrasound": [
+                {
+                  "name": "Endometrium",
+                  "result": "11.9"
+                },
+                {
+                  "name": "right ovary",
+                  "result": "22,17,5,16,10"
+                },
+                {
+                  "name": "left ovary",
+                  "result": "small follicular, 3"
+                }
+              ]
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190304",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190305",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190306",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190307",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "0",
+            "infoday": [
+              {
+                "dr": "Dr. Jack Lee",
+                "message": " Please make sure that you have alcohol pads, a box of needles, relevant syringes, and the injection medications you received.\r\n"
+              },
+              {
+                "dr": "Dr. Jane Carol",
+                "message": "Payment voucher was received from your HMO"
+              }
+            ]
+          },
+          {
+            "date": "20190308",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190309",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190310",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190311",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          },
+          {
+            "date": "20190312",
+            "medicines": [
+              {
+                "name": "Endometrin",
+                "type": "",
+                "quantity": "3",
+                "take": "no"
+              }
+            ],
+            "examinations": {
+              "blood": [],
+              "ultrasound": []
+            },
+            "actions": "-1",
+            "infoday": []
+          }
+        ],
+        "isopen": "true",
+        "medicalcenterid": "1"
+      }
+    ],
+    "ovaryfrozeninhospital": "0",
+    "spermfrozeninhospital": "0",
+    "medicalcentername": "Fertilytech Clinic",
+    "notifications": {
+      "pushnumber": [
+        "0"
+      ],
+      "messages": [
+        {
+          "time": "201903071236",
+          "message": "There is an update for your medications",
+          "see": "yes"
+        },
+        {
+          "time": "201903071238",
+          "message": "There is an update for your medications",
+          "see": "yes"
+        },
+        {
+          "time": "201903071238",
+          "message": "There is an update for your medications",
+          "see": "yes"
+        },
+        {
+          "time": "201903071358",
+          "message": "You have a message from your medical team",
+          "see": "yes"
+        },
+        {
+          "time": "201903071405",
+          "message": "There is an update for your treatment plan",
+          "see": "yes"
+        },
+        {
+          "time": "201903071425",
+          "message": "There is an update for your medications",
+          "see": "yes"
+        },
+        {
+          "time": "201903071433",
+          "message": "There is an update for your treatment plan",
+          "see": "yes"
+        }
+      ]
+    },
+    "tasklist": {
+      "task": [
+        {
+          "todo": "Bring the payment voucher from the HMO",
+          "dateupto": "20190301",
+          "done": "no",
+          "executiondate": "20190220",
+          "remarks": "The fund pays for half of the treatment"
+        },
+        {
+          "todo": "Bring your medical file",
+          "dateupto": "20190210",
+          "done": "no",
+          "executiondate": "20190205",
+          "remarks": "No"
+        }
+      ]
+    }
+  },
+  "Instructions": {
+    "instructions": [
+      {
+        "title": "Prior to your retrieval ",
+        "data": [
+          {
+            "text": "Dear patient,\nWe wish you great success in the treatment process and hope for a positive pregnancy test for you."
+          },
+          {
+            "text": "Once you receive the message about your egg retrieval (Usually two days before the egg retrieval):",
+            "type": "subTitle"
+          },
+          {
+            "text": "Please make sure you have the payment voucher provided by your HMO for:"
+          },
+          {
+            "text": "Stage A, Stage B, micromanipulation, and a day of hospitalization (if required).",
+            "type": "dot"
+          },
+          {
+            "text": "If you are interested in lab observation, inform the nurse/secretary, and coordinate it.",
+            "type": "dot"
+          },
+          {
+            "text": "egg retrieval:",
+            "type": "subTitle"
+          },
+          {
+            "text": "The retrieval is performed under general anesthesia and guided by ultrasound"
+          },
+          {
+            "text": "If the retrieval is to be performed in the morning hours :\nYou will receive the ovulation trigger shot only (two days before the retrieval); the exact timing will be provided by the medical team: \nOvitrelle 250 mg ,subcutaneous injection at a dosage determined for you, or Decapeptyl 0.1  , subcutaneous injection at a dosage determined for you, or Pregnyl 5000 , intramuscular injection at a dosage determined for you.",
+            "type": "dot"
+          },
+          {
+            "text": "If treated with Cetrotide  or with Orgalutran, take the final dose according to the instructions you received.",
+            "type": "dot"
+          },
+          {
+            "text": "If treated with Menopur, take the final dose at 8:00 PM in the evening before the retrieval.",
+            "type": "dot"
+          },
+          {
+            "text": "Make sure to follow the instructions for taking the medications according to the days and times specified for you",
+            "type": "dot"
+          },
+          {
+            "text": "Intercourse is permitted up to two days before the retrieval",
+            "type": "dot"
+          },
+          {
+            "text": "The evening before the egg retrieval:",
+            "type": "subTitle"
+          },
+          {
+            "text": "On the evening before the retrieval, you can have a light dinner between 8:00-9:00 PM, allowed to drink until midnight (12 AM). From that point, you're asked to maintain complete fasting, including no drinking and no smoking. \nIf you're regularly taking medication, you're asked to consult with the nurse and receive guidance for taking the medication accordingly."
+          },
+          {
+            "text": "The day of the egg retrieval:",
+            "type": "subTitle"
+          },
+          {
+            "text": "You should arrive at the IVF unit at the time and day scheduled for you with your partner. Women being treated without a partner are advised to come with a companion.",
+            "type": "dot"
+          },
+          {
+            "text": "The nurse who will accompany you during the retrieval will receive and prepare you for the procedure. They will measure temperature, blood pressure, pulse, and you will also be asked to sign consent forms for the retrieval and anesthesia.",
+            "type": "dot"
+          },
+          {
+            "text": "At this stage, your partner can still stay in your partition. He will receive a container for semen collection labeled with your name and his name, along with instructions and guidance regarding the timing of collection, etc'.",
+            "type": "dot"
+          },
+          {
+            "text": "You can bring semen from home if it's possible to reach the unit within 40 minutes from the time of collection, with prior coordination with the nurses. If your place of residence is further away, you can receive a sterile container in advance and a special solution for semen preservation.",
+            "type": "dot"
+          },
+          {
+            "text": "Please refrain from bringing valuables/jewelry. Ensure nails are free from polish, arrive without makeup, and if using contact lenses, bring a storage container.",
+            "type": "dot"
+          },
+          {
+            "text": "During the retrieval, your partner/companion will wait in the waiting room.",
+            "type": "dot"
+          },
+          {
+            "text": "After the egg retrieval: ",
+            "type": "subTitle"
+          },
+          {
+            "text": "You will be transferred to the recovery room for approximately 2-3 hours.",
+            "type": "dot"
+          },
+          {
+            "text": "You will be under the care of nurses until complete recovery.",
+            "type": "dot"
+          },
+          {
+            "text": "Please note! Wake up while holding a fluid bag. During this time, the bed rails will be raised for your safety.",
+            "type": "dot"
+          },
+          {
+            "text": "Before discharge, you will receive a report from the unit nurse/doctor about the number of eggs retrieved.",
+            "type": "dot"
+          },
+          {
+            "text": "You will be discharged to your home equipped with a discharge letter after receiving instructions for further care.",
+            "type": "dot"
+          },
+          {
+            "text": "Please note, driving is prohibited on this day.",
+            "type": "dot"
+          },
+          {
+            "text": "The day after the egg retrieval:",
+            "type": "subTitle"
+          },
+          {
+            "text": "You will receive information regarding the status of your embryos. Additionally, the appointment for the embryo transfer will be scheduled for you.",
+            "type": "dot"
+          },
+          {
+            "text": "Make sure that the support medication is readily available to you. (Endometrin suppositories / Utrogestan suppositories / Geston injections / Ovitrelle injections)",
+            "type": "dot"
+          },
+          {
+            "text": "Bring the medication you received on the day of Embryo transfer.",
+            "type": "dot"
+          },
+          {
+            "text": "For additional information or questions, please contact the medical team",
+            "type": "dot"
+          }
+        ]
+      },
+      {
+        "title": "After the retrieval",
+        "data": [
+          {
+            "text": "Dear Patient,\nWe wish you great success in the treatment process. After the egg retrieval, you'll get a discharge letter. Please note to some potential effects that may occur today and in the coming days!"
+          },
+          {
+            "text": "Today, the day of the egg retrieval:",
+            "type": "subTitle"
+          },
+          {
+            "text": "It is recommended to rest and avoid tasks outside the routine. Also, it's preferable not to stay alone.",
+            "type": "dot"
+          },
+          {
+            "text": "It's possible to eat normally, but it's recommended to pay attention to staying hydrated.",
+            "type": "dot"
+          },
+          {
+            "text": "Hygiene - there are no restrictions, and it's possible (preferable) to shower.",
+            "type": "dot"
+          },
+          {
+            "text": "Spotting - mild bladder leakage or light spotting is a common and normal occurrence that doesn't require intervention. If the spotting intensifies, it's advisable to consult with your attending physician for evaluation. In case of need, seek a referral to the ER",
+            "type": "dot"
+          },
+          {
+            "text": "Shortness of breath - may appear due to the abdominal stimulation you experienced.",
+            "type": "dot"
+          },
+          {
+            "text": "Fever occurrence - it's a relatively rare symptom that could indicate the development of an infection. In this case, you should seek medical evaluation.",
+            "type": "dot"
+          },
+          {
+            "text": "Pain - the egg retrieval is a surgical procedure that may cause pain, which is usually alleviated with pain relievers. The pain can be due to preoperative stimulation and may be accompanied by abdominal discomfort. (Pain can persist and even intensify after the return of the embryos). If you've taken pain relievers and the pain continues or worsens, you should consult a doctor and/or triage room for evaluation. Please note that accessing the ER without a referral may involve a fee.",
+            "type": "dot"
+          },
+          {
+            "text": "Activity - as mentioned, on the day of the retrieval, rest is recommended, and driving is prohibited. On the day after the retrieval, the level of activity you can resume depends on several factors related to the stimulation and the egg retrieval process you underwent. You'll receive explanations and guidance on suitable activity from the medical team before your discharge.",
+            "type": "dot"
+          }
+        ]
+      },
+      {
+        "title": "Before the Embryo Transfer",
+        "data": [
+          {
+            "text": "Dear patient,\nThe embryo transfer process typically occurs around 48 to 72 hours after the egg retrieval. As mentioned, information about the number of embryos and the timing of the transfer will be provided the day after the egg retrieval, during the week. "
+          },
+          {
+            "text": "Instructions for preparing for the embryo transfer",
+            "type": "subTitle"
+          },
+          {
+            "text": "This procedure is performed without anesthesia! \nWhen you arrive in the morning, the unit nurse will identify you and arrange a meeting with the doctor. During this discussion, you will receive a report on the updated number of fertilized eggs and an explanation about the quality of the embryos. The doctor will recommend the number of embryos to be transferred to the uterus in accordance with the Ministry of Health guidelines. \n\nBoth partners will sign a consent form for the embryo transfer.\nYou'll get dressed in appropriate attire for entering the surgery room, including a gown, a hat, and booties.\n\nDuring the procedure, the embryos will be transferred into the uterus through a special catheter, typically guided by ultrasound.\nAfter the procedure, you will rest briefly in a recovery room and can use certain supportive items like candles or progesterone (as advised).\nThere might be waiting time before the procedure. It suggests staying calm and prepared. After your release, you'll receive a summary letter with further instructions, as well as guidance from the releasing nurse.\nIf you need further details or help, please contact the medical team."
+          }
+        ]
+      },
+      {
+        "title": "After the retrieval",
+        "data": [
+          {
+            "text": "Dear Patient,\nThis is an exciting and hopeful moment, after the embryos have been transferred to your uterus, following a long and complex process. We all wish you success!,\nTo confirm the results of the process, you'll have a pregnancy blood test in about 12-14 days, at the specified time mentioned in the discharge letter."
+          },
+          {
+            "text": "Recommendations:",
+            "type": "subTitle"
+          },
+          {
+            "text": "In the discharge letter, the progesterone supplement and its recommended dosage for your support until the blood test will be indicated. Do not discontinue it without consulting a doctor (you will receive instructions on usage from a doctor and the unit's nurse).",
+            "type": "dot"
+          },
+          {
+            "text": "In case of spotting, it's advisable to consult the medical team and act according to their guidelines. Sometimes, they might recommend visiting the unit/emergency room or a gynecologist.",
+            "type": "dot"
+          },
+          {
+            "text": "There's no need to stay in bed. However, it's advisable to avoid strenuous activities. In the following days until the blood test, you can return to your regular routine.",
+            "type": "dot"
+          },
+          {
+            "text": "You can go swimming in a pool or at the sea.",
+            "type": "dot"
+          },
+          {
+            "text": "Ensure adequate hydration.",
+            "type": "dot"
+          },
+          {
+            "text": "You can resume the same sports activities you did before the retrieval. For women who haven't engaged in physical activity yet, it's recommended not to start during this time.",
+            "type": "dot"
+          },
+          {
+            "text": "For the first three days, it's recommended to avoid sexual intercourse. After that, there are no medical restrictions.",
+            "type": "dot"
+          },
+          {
+            "text": "There might be a sensation of bloating and mild abdominal discomfort. If the abdominal pain increases, with or without shortness of breath or reduced urination, it's advised to contact the medical unit during operating hours or the medical call center/emergency room.",
+            "type": "dot"
+          },
+          {
+            "text": "In case of any doubts or questions, please contact the medical team"
+          }
+        ]
+      }
+    ]
+  },
+  "Version": 11
+}

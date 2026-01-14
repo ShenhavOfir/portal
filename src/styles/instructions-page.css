@@ -1,0 +1,75 @@
+
+ /* # instructions Page Styles only */
+.instructions-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* .page-title {
+  text-align: center;
+  color: #663399;
+  margin-bottom: 2rem;
+} */
+
+.instr-section {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.instr-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.75rem;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #663399;
+}
+
+.instr-arrow {
+  margin-inline-start: 0.5rem;
+}
+
+.instr-content {
+  padding: 1rem 1.5rem;
+}
+
+.instr-subtitle {
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #663399;
+}
+
+.instr-dot {
+  margin-right: 1.5rem;
+  position: relative;
+  padding-right: 1rem;
+  text-align: right;
+  direction: rtl;
+}
+
+.instr-dot::before {
+  content: "•";
+  position: absolute;
+  right: 0;
+  color: #663399;
+}
+
+.instr-text {
+  margin: 0.5rem 0;
+  text-align: right;
+  direction: rtl;
+}
+.instr-content {
+  line-height: 1.9; /* מרווח שורות גבוה יותר */
+  margin-top: 1rem; /* רווח בין הכותרת לתוכן */
+}
+
+.instr-text,
+.instr-dot,
+.instr-subTitle {
+  margin-bottom: 1rem; /* רווח בין פסקאות */
+}

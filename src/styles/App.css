@@ -1,0 +1,87 @@
+/* General app styles */
+/* .app-container {
+  padding: 1.5rem;
+  font-family: Arial, sans-serif;
+  background: #f4f2fa;
+  min-height: 100vh;
+} */
+
+/* Navigation styles */
+/* nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+} */
+
+/* .active-link {
+  color: #7e4bbf;
+  text-decoration: underline;
+}
+
+.inactive-link {
+  color: #888;
+} */
+
+/* Responsive navigation */
+/* @media (max-width: 768px) {
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .app-container {
+    padding: 1rem;
+  }
+} */
+/* כרטיסים נחמדים */
+/* .tp-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(20, 16, 35, 0.06);
+  padding: 12px;
+} */
+
+/* תגית תאריך סגולה */
+/* .tp-chip {
+  display: inline-block;
+  background: #f0ecff;
+  color: #5b41a8;
+  border: 1px solid #e6ddff;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-weight: 800;
+} */
+
+/* כותרות משנה */
+/* .tp-section-title {
+  color: #7e4bbf;
+  font-weight: 800;
+  margin: 6px 0 8px;
+} */
+
+/* שורות */
+/* .tp-row {
+  display: grid;
+  row-gap: 4px;
+  padding: 10px 8px;
+  border-bottom: 1px solid #f1f0f6;
+} */
+/* .tp-row:last-child { border-bottom: 0; } */
+
+/* ריק */
+/* .tp-empty {
+  background: #f9f7ff;
+  border: 1px dashed #e6ddff;
+  color: #7e4bbf;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+:root {
+  --brand: #7e4bbf;
+  --chip-bg: #f0ecff;
+  --chip-brd: #e6ddff;
+} */

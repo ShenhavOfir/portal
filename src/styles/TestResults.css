@@ -1,0 +1,348 @@
+.results-page {
+  --bg: #f4f2fa;
+  --card-bg: #fff;
+  --text: #1d1b22;
+  --muted: #6e6b78;
+  --ring: #7e4bbf;
+  --ring-soft: #ece6ff;
+  --blood-bg: #ffe7ef;
+  --blood-fg: #b23362;
+  --ultra-bg: #e7f0ff;
+  --ultra-fg: #2a66b2;
+  padding: 1rem;
+  background: var(--bg);
+  
+}
+
+/* .page-header {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; margin: 6px 2px 14px;
+}
+.page-header h2 { margin: 0; color: var(--text); } */
+
+/* .segmented {
+  display: inline-flex; background: var(--ring-soft);
+  padding: 4px; border-radius: 999px; gap: 6px;
+}
+.seg-btn {
+  border: 0; background: transparent; color: var(--ring);
+  font-weight: 700; padding: .5rem .9rem; border-radius: 999px;
+  display: inline-flex; align-items: center; gap: 8px; cursor: pointer;
+}
+.seg-btn.active { background: var(--ring); color: #fff; } */
+.seg-icon { display: inline-flex; }
+
+.cards { display: grid; grid-template-columns: 1fr; gap: 14px; }
+@media (min-width: 880px) { .cards { grid-template-columns: 1fr 1fr; } }
+
+.result-card {
+  background: var(--card-bg); border-radius: 14px; padding: 0.9rem 1rem;
+  box-shadow: 0 8px 24px rgba(20,16,35,.06); border: 1px solid #eee;
+}
+.result-card-header {
+  display: flex; align-items: center; justify-content: space-between; margin-bottom: .6rem;
+}
+.header-left { display: flex; align-items: center; gap: 10px; }
+
+.type-badge {
+  width: 36px; height: 36px; display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 10px;
+}
+.type-badge.blood { background: var(--blood-bg); color: var(--blood-fg); }
+.type-badge.ultra { background: var(--ultra-bg); color: var(--ultra-fg); }
+
+.date-chip {
+  background: #f0ecff; color: #5b41a8; font-weight: 800;
+  border-radius: 999px; padding: .25rem .7rem; border: 1px solid #e6ddff;
+}
+
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: .25rem .5rem;
+  border-radius: 999px; font-weight: 700; font-size: .9rem; }
+.pill.blood { background: var(--blood-bg); color: var(--blood-fg); }
+.pill.ultra { background: var(--ultra-bg); color: var(--ultra-fg); }
+
+/* === אופקי: שמות למעלה, ערכים למטה === */
+.mini-grid-wrap { overflow-x: auto; padding-bottom: 4px; }
+.mini-grid {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(var(--cols), minmax(70px, 1fr));
+
+  gap: 8px 12px;
+  align-items: center;
+  border: 1px solid #f1f0f6;
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: #fff;
+}
+.mini-head, .mini-val {
+  text-align: center;
+  white-space: normal;          /* לא לחתוך – לאפשר שבירה לשורה שנייה */
+  word-break: break-word;       /* אם יש מילים ארוכות, לשבור אותן */
+  font-family: "Heebo", Arial, sans-serif; /* אותו פונט כמו שאר האפליקציה בעברית */
+}
+.mini-head {
+  font-weight: 800;
+  color: #5b41a8;
+}
+.mini-val {
+  font-weight: 700;
+  color: var(--text);
+}.results-page {
+  --bg: #f4f2fa;
+  --card-bg: #fff;
+  --text: #1d1b22;
+  --muted: #6e6b78;
+  --ring: #7e4bbf;
+  --ring-soft: #ece6ff;
+  --blood-bg: #ffe7ef;
+  --blood-fg: #b23362;
+  --ultra-bg: #e7f0ff;
+  --ultra-fg: #2a66b2;
+  padding: 1rem;
+  background: var(--bg);
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 6px 2px 14px;
+}
+.page-header h2 {
+  margin: 0;
+  color: var(--text);
+}
+
+.segmented {
+  display: inline-flex;
+  background: var(--ring-soft);
+  padding: 4px;
+  border-radius: 999px;
+  gap: 6px;
+}
+.seg-btn {
+  border: 0;
+  background: transparent;
+  color: var(--ring);
+  font-weight: 700;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.seg-btn.active {
+  background: var(--ring);
+  color: #fff;
+}
+.seg-icon {
+  display: inline-flex;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+@media (min-width: 880px) {
+  .cards {
+    grid-template-columns: 1fr 1fr; /* חוזר ל-2 עמודות בדסקטופ כמו קודם */
+  }
+}
+
+.result-card {
+  background: var(--card-bg); border-radius: 14px; padding: 0.9rem 1rem;
+  box-shadow: 0 8px 24px rgba(20,16,35,.06); border: 1px solid #eee;
+}
+.result-card-header {
+  display: flex; align-items: center; justify-content: space-between; margin-bottom: .6rem;
+}
+.header-left { display: flex; align-items: center; gap: 10px; }
+
+.type-badge {
+  width: 36px; height: 36px; display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 10px;
+}
+.type-badge.blood { background: var(--blood-bg); color: var(--blood-fg); }
+.type-badge.ultra { background: var(--ultra-bg); color: var(--ultra-fg); }
+
+.date-chip {
+  background: #f0ecff; color: #5b41a8; font-weight: 800;
+  border-radius: 999px; padding: .25rem .7rem; border: 1px solid #e6ddff;
+}
+
+.pill { display: inline-flex; align-items: center; gap: 6px; padding: .25rem .5rem;
+  border-radius: 999px; font-weight: 700; font-size: .9rem; }
+.pill.blood { background: var(--blood-bg); color: var(--blood-fg); }
+.pill.ultra { background: var(--ultra-bg); color: var(--ultra-fg); }
+
+/* === אופקי: שמות למעלה, ערכים למטה === */
+.mini-grid-wrap { overflow-x: auto; padding-bottom: 4px; }
+.mini-grid {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(var(--cols, 1), minmax(90px, 1fr));
+  gap: 8px 12px;
+  align-items: center;
+  border: 1px solid #f1f0f6;
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: #fff;
+}
+.mini-head, .mini-val {
+  text-align: center;
+  white-space: normal;      /* לא לחתוך – שורה שנייה אם צריך */
+  word-break: break-word;
+}
+.mini-head {
+  font-weight: 800; color: #fff; background: #5b41a8; border-radius: 6px;
+}
+.mini-val {
+  
+  font-weight: 700; color: var(--text);
+  background: #faf7ff;
+}
+
+/* זברה קלה לעמודות (אופציונלי) */
+.mini-grid,
+.mini-grid {
+  border-radius: 6px;
+  padding: 4px 6px;
+}
+
+/* 📱 התאמה למובייל – כותרת וטאבים בערימה, טאבים ברוחב מלא */
+@media (max-width: 768px) {
+  /* מרווחים רכים יותר במובייל */
+  .results-page {
+    padding: 0.5rem 0.5rem 4rem;
+  }
+
+  .result-card {
+    padding: 0.7rem 0.7rem;
+  }
+
+  .page-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  /* שהטאבים יתפסו את כל הרוחב ויישבו יפה בשורה אחת */
+  .results-page .segmented {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .segmented {
+    flex-wrap: wrap;
+  }
+
+  .seg-btn {
+    flex: 1 1 auto;
+    justify-content: center;
+    text-align: center;
+    padding: 0.45rem 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  /* טבלה קטנה יותר – פחות גלילה אופקית במסכים צרים */
+  .mini-grid {
+    grid-template-columns: repeat(var(--cols, 1), minmax(70px, 1fr));
+    gap: 6px 8px;
+    padding: 8px 8px;
+  }
+
+  .mini-head,
+  .mini-val {
+    font-size: 0.8rem;
+  }
+}
+
+/* מסכים הכי קטנים (למשל 320px רוחב) – טקסט קטן יותר ומסתירים אייקונים כדי שלא יישבר */
+@media (max-width: 360px) {
+  .results-page {
+    padding: 0 0 3.5rem; /* פחות שוליים – הכל נכנס לרוחב 360px */
+  }
+
+  .page-header {
+    gap: 6px;
+    margin: 4px 0 10px;
+  }
+
+  .results-page .segmented {
+    width: 100%;
+  }
+
+  .results-page .seg-btn {
+    padding: 0.35rem 0.3rem;
+    font-size: 0.78rem;
+  }
+
+  .results-page .seg-icon {
+    display: none; /* נשאר רק טקסט כדי שלא יישבר לשתי שורות */
+  }
+
+  /* הכרטיסים עצמם יותר קומפקטיים */
+  .result-card {
+    padding: 0.5rem 0.5rem;
+    margin: 0 1px 10px;   /* טיפה שוליים מהצדדים כדי שלא יחתוך במסך 360 */
+  }
+
+  .type-badge {
+    width: 30px;
+    height: 30px;
+  }
+
+  .date-chip {
+    font-size: 0.78rem;
+    padding: 0.2rem 0.55rem;
+  }
+
+  /* הטבלה הפנימית – עמודות צרות יותר כדי לצמצם גלילה רוחבית */
+  .mini-grid {
+    grid-template-columns: repeat(var(--cols), minmax(68px, 1fr));
+    gap: 4px 6px;
+    padding: 6px 8px;  /* טיפה יותר רוחב לצ'יפ הסגול של הכותרת */
+  }
+
+  .mini-head,
+  .mini-val {
+    font-size: 0.75rem;
+  }
+}
+
+/* ליתר ביטחון – לא יהיו bullets בשום מקום */
+.result-card ul, .result-card li { list-style: none; margin: 0; padding: 0; }
+
+/* ליתר ביטחון – לא יהיו bullets בשום מקום */
+.result-card ul, .result-card li { list-style: none; margin: 0; padding: 0; }
+.mini-head.purple-text {
+  color: #7e4bbf; /* טקסט סגול */
+}
+
+.mini-val.purple-bg {
+  background-color: #7e4bbf; /* רקע סגול */
+  color: white; /* טקסט לבן */
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+/* 🎯 כיווץ שמות הבדיקות לשורה אחת בלבד,
+   אבל מאפשר לתוצאות עצמן להישבר לשתי שורות אם צריך */
+.mini-head {
+  white-space: nowrap;
+  word-break: normal;
+}
+
+.mini-val {
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* כל שורה בתוך הערך – שורה נפרדת עם רווח קטן ביניהן */
+.mini-val-row {
+  display: block;
+  line-height: 1.2;
+}

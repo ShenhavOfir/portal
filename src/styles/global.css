@@ -1,0 +1,1375 @@
+/* 🌍 משתנים כלליים (מקור: App.css) */
+:root {
+  --brand: #7e4bbf;
+  --chip-bg: #f0ecff;
+  --chip-brd: #e6ddff;
+}
+
+/* 🌍 עיצוב בסיסי של הדף (מקור: App.css) */
+html,
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f2fa;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* 📦 קונטיינר כללי של האפליקציה (מקור: App.css) */
+.app-container {
+  padding: 1.5rem;
+  min-height: 100vh;
+  
+}
+
+/* 📌 ניווט ראשי (מקור: App.css) */
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.active-link {
+  color: var(--brand);
+  text-decoration: underline;
+}
+.inactive-link {
+  color: #888;
+}
+
+/* 📱 רספונסיביות לניווט (מקור: App.css) */
+/* ריווח למסכים קטנים */
+@media (max-width: 600px) {
+  body,
+  .app-container {
+    padding: 8px !important;
+    box-sizing: border-box;
+    
+  }
+
+  .tp-wrapper,
+  .tp-section,
+  .ova-card,
+  .ova-toolbar,
+  .tp-card {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .tp-calendar,
+  .tp-chosen,
+  .tp-task-line {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .tp-task-line {
+    font-size: 14px;
+  }
+
+  .hamburger-button {
+    margin-right: auto;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+}
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* מקום מתחת לסרגל תחתון במובייל / טאבלט (אותו breakpoint כמו ה-BottomNav)
+   משתמשים ב-!important כדי לגבור על padding: 8px !important במסכים עד 600px */
+@media (max-width: 1100px) {
+  .app-container {
+    padding-bottom: 88px !important;
+  }
+}
+
+
+
+
+/* 🟪 תגית תאריך סגולה (מקור: App.css) */
+.tp-chip {
+  display: inline-block;
+  background: var(--chip-bg);
+  color: #5b41a8;
+  border: 1px solid var(--chip-brd);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-weight: 800;
+}
+
+/* 📋 כרטיס כללי (מקור: App.css) */
+.tp-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(20, 16, 35, 0.06);
+  padding: 12px;
+}
+
+/* 🟣 כותרות פנימיות כמו "שלב א'" (מקור: App.css) */
+.tp-section-title {
+  color: var(--brand);
+  font-weight: 800;
+  font-family: "Heebo", Arial, sans-serif;
+  margin: 6px 0 8px;
+}
+
+/* 📑 שורות בתוך כרטיס (מקור: App.css) */
+.tp-row {
+  display: grid;
+  row-gap: 4px;
+  padding: 10px 8px;
+  border-bottom: 1px solid #f1f0f6;
+}
+.tp-row:last-child {
+  border-bottom: 0;
+}
+
+/* 🚫 הודעה על ריקון נתונים (מקור: App.css + TreatmentPlan.css) */
+.tp-empty {
+  background: #f9f7ff;
+  border: 1px dashed var(--chip-brd);
+  color: #5b41a8; 
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+/* ✅ רשימות עם בולטים (מקור: AboutPage.css) */
+.bullet-list {
+  list-style-type: disc;
+  padding-right: 1.5rem;
+}
+.bullet-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* 🟣 כפתור צור קשר צף (מקור: ContactFloating.css) */
+.cf-floating {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  background: var(--brand);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 9999;
+  transition: background 0.25s, transform 0.15s;
+}
+.cf-floating {
+  display: none !important; /* מוסתרת כרגע, אבל הקוד נשאר */
+}
+.cf-floating:hover {
+  background: #5b3a91;
+  transform: scale(1.05);
+}
+.cf-icon {
+  font-size: 28px;
+  line-height: 1;
+  pointer-events: none;
+}
+/* 📥 עיצוב כללי לשדות טופס (מקור: ContactPage.css) */
+
+.cp-label {
+  font-weight: 700;
+  color: #333;
+}
+
+.cp-input,
+.cp-textarea,
+.cp-select {
+  width: 94%;
+  padding: 12px 14px;
+  border: 1px solid #c5a5e3;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.cp-input:focus,
+.cp-textarea:focus,
+.cp-select:focus {
+  border-color: #7e4bbf;
+  box-shadow: 0 0 0 3px rgba(126, 75, 191, 0.15);
+}
+
+.cp-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.cp-submit {
+  background: #7e4bbf;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.cp-submit:hover {
+  background: #5b3a91;
+}
+
+.cp-error {
+  color: #c62828;
+  font-size: 0.95em;
+  margin-top: 4px;
+}
+/* 📦 עטיפת תוכן כללית (מקור: Dashboard.css + TreatmentPlan.css) */
+.tp-wrapper {
+  padding: 16px 12px;
+  max-width: 1120px;
+  margin: 16px auto 0;         /* שילוב של margin-top עם centering */
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+
+/* 📦 tp-section (מקור: Dashboard.css + TreatmentPlan.css) */
+.tp-section {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(20, 16, 35, 0.06);
+  padding: 12px 14px;
+  margin: 12px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+
+/* 🟪 תיבת מידע עגולה - pill box (מקור: Dashboard.css) */
+.tp-pill-box {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #f4f1fc;
+  border: 1px solid #a984df;
+  border-radius: 12px;
+  color: #6a1b9a;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+/* 🎨 איקונים בתוך כרטיסים (מקור: TreatmentPlan.css + Dashboard.css) */
+.tp-icons {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 22px; /* שורה קבועה לאיקונים – גם כשאין אייקון נשמר גובה */
+}
+
+.tp-icons svg {
+  vertical-align: middle;
+  margin-inline-start: 4px;
+  stroke: #6b4bb8;
+  width: 20px;
+  height: 20px;
+}
+
+/* 🧪 תצוגת דמו כללית - demo overlay (מקור: Demo.css) */
+.demo-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: transparent;
+  z-index: 999;
+  pointer-events: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  opacity: 0.06;
+  user-select: none;
+  direction: rtl;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+}
+.demo-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 50px,
+    rgba(0, 0, 0, 0.05) 50px,
+    rgba(0, 0, 0, 0.05) 60px
+  );
+  pointer-events: none;
+}
+
+.demo-overlay span {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 🎯 סגנון כללי לכפתור תפריט המבורגר (מקור: HamburgerMenu.css) */
+.hamburger-button {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.hamburger-drawer {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100vh;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+  transition: right 0.3s ease-in-out;
+  z-index: 1002;
+  overflow-y: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.hamburger-drawer.open {
+  right: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+/* 🎡 סגנון ספינר טעינה (מקור: Header.css) */
+.spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #663399;
+  border-radius: 50%;
+  display: inline-block;
+  animation: spin 0.8s linear infinite;
+  vertical-align: middle;
+}
+/* 🔔 באדג' כללי להצגת מספרים קטנים (מקור: Header.css) */
+.nav-with-badge {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-badge {
+  position: absolute;
+  top: -6px;
+  left: -10px;
+  background: #e53935;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 999px;
+  line-height: 1;
+}
+/*  (מקור: Header.css) */
+
+
+.rtl-navbar .nav-link {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+/* הגדרות רספונסיביות ל-header */
+/* custom navbar layout overrides */
+.custom-navbar .header-inner {
+  flex-wrap: wrap;
+}
+
+.custom-navbar .right-group,
+.custom-navbar .left-group {
+  display: flex;
+  align-items: center;
+}
+
+.custom-navbar .left-group .notif-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #e53935;
+  color: #fff;
+  border-radius: 999px;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+}
+
+/* רספונסיבי – במובייל נהפך לעמודה */
+@media (max-width: 576px) {
+  .custom-navbar .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .custom-navbar .left-group,
+  .custom-navbar .right-group {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .custom-navbar .left-group button,
+  .custom-navbar .left-group span,
+  .custom-navbar .left-group select {
+    font-size: 0.75rem !important;
+  }
+  .custom-navbar .left-group .notif-btn svg {
+    font-size: 1.4rem !important;
+  }
+}
+
+/* מייעל את בוחר המחזור כשהוא ב־compact */
+.cycle-select-small {
+  min-width: unset !important;
+  max-width: 120px;
+  flex-shrink: 1;
+}
+
+
+/* 🔙 כפתור חזור כללי (מקור: InfoPage.css) */
+.info-back-btn {
+  background: none;
+  border: none;
+  color: var(--brand);
+  font-size: 26px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* 🔗 רשימת קישורים כללית (מקור: InfoPage.css) */
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-list li {
+  margin: 6px 0;
+}
+
+.link-list a {
+  text-decoration: none;
+  color: #444;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.link-list a:hover {
+  color: var(--brand);
+  text-decoration: underline;
+}
+/* LoginPage.css */
+.tp-modal-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 🎭 LoginPage.css */
+.tp-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+/* 🔗 קישור בולט */
+.link {
+  cursor: pointer;
+  color: #663399;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+/* 🌐 טיפוגרפיה כללית */
+.logo {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: var(--brand);
+  font-family: "Heebo", Arial, sans-serif;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #444;
+  max-width: 340px;
+  line-height: 1.6;
+  font-family: "Heebo", Arial, sans-serif;
+}
+
+/* 📌 כותרות עמוד נפוצות(מקור: instructions-page.css) */
+.page-title {
+  text-align: center;
+  color: var(--brand); /* השתמשי במשתנה במקום צבע קשיח */
+  margin-bottom: 2rem;
+}
+
+/* 🔔 פעמון התראות (מקור: NotificationBell.css) */
+.notification-bell {
+  all: unset;             /* מנקה עיצוב ברירת מחדל */
+  cursor: pointer;        /* סמן יד */
+  position: relative;     /* בשביל הבאג' */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  padding: 6px 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-size: 18px;
+  line-height: 1;
+}
+
+.notification-bell:hover {
+  background: #f4f0ff;    /* היילייט קל בסגול */
+  border-color: #7e4bbf;
+}
+
+.notification-count {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  background: #e53935;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  font-weight: bold;
+  z-index: 1;
+}
+/* 🌍 מתוך NotificationsPage.css – כפתורים גלובליים למחיקה */
+.btn-delete-all {
+  padding: 6px 12px;
+  background-color: #7e4bbf;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin: -3px 0 10px; /* טיפה יותר קרוב לכותרת, מבלי להידבק אליה */
+}
+.btn-delete-all:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.notification-delete-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #7e4bbf;
+}
+.notification-delete-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 🌍 מתוך OvulationTracking.css – כפתורים גלובליים למחיקה */
+
+/* 🔘 כפתור ova-btn — עיצוב גלובלי */
+.ova-btn {
+  border: 1px solid var(--chip-brd);
+  background: #ffffff;
+  color: var(--brand);
+  font-weight: 800;
+  padding: 8px 18px;   /* גודל נעים — יותר גדול מהדיפולט, לא ענק */
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  box-shadow: 0 3px 10px rgba(126, 75, 191, 0.1);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ova-btn:hover {
+  background: var(--chip-bg);
+  box-shadow: 0 4px 14px rgba(126, 75, 191, 0.15);
+}
+
+
+
+/* 🌍 תגיות מידע עגולות */
+.ova-note,
+.ova-placeholder {
+  padding: 8px 12px;
+  border: 1px solid var(--chip-brd);
+  background: var(--chip-bg);
+  color: var(--brand);
+  font-weight: 800;
+  border-radius: 999px;
+  text-align: center;
+}
+.ova-placeholder {
+  opacity: 0.85;
+}
+
+.ova-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  border-top: 1px solid #f1f0f6;
+  column-gap: 12px;
+}
+.ova-row:first-of-type {
+  border-top: 0;
+}
+.ova-label {
+  color: var(--text);
+  font-weight: 700;
+  white-space: nowrap;
+  min-width: 100px;
+}
+.ova-value {
+  color: var(--text);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.ova-main-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: var(--brand);
+  margin: 0 0 1.2rem;
+  position: relative;
+}
+.ova-main-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--brand);
+  margin: 10px auto 0;
+  border-radius: 4px;
+}
+/* 📦 פופאפ כללי – מקור: Popup.css */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.popup-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px 30px;
+  max-width: 320px;
+  width: 80%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  position: relative;
+  text-align: center;
+  animation: popupFadeIn 0.3s ease;
+}
+
+.popup-message {
+  font-size: 16px;
+  font-weight: 500;
+  color: #5b41a8;
+  margin: 0 0 20px;
+}
+
+.popup-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #5b41a8;
+  cursor: pointer;
+}
+
+.popup-close:hover {
+  color: #3c2c79;
+}
+
+.popup-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.popup-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  background: #eee;
+  color: #5b41a8;
+  transition: background 0.2s;
+}
+
+.popup-btn:hover {
+  background: #ddd;
+}
+
+.popup-btn.filled {
+  background: #5b41a8;
+  color: white;
+}
+
+.popup-btn.filled:hover {
+  background: #432f93;
+}
+
+/* ✨ אנימציה לפתיחה */
+@keyframes popupFadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+/* 🌀 Loader גלובלי (מקור: Loader.css) */
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #7e4bbf; /* צבע מתואם */
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* 🎛️ Segmented Toggle (משמש בכמה עמודים, מקור: TestResults.css) */
+.segmented {
+  display: inline-flex;
+  background: var(--ring-soft);
+  padding: 2px;
+  border-radius: 999px;
+  gap: 0;                 /* בלי רווחים – הלשוניות מתחברות אחת לשנייה */
+  overflow: hidden;       /* כדי שהסגול יתאים בדיוק לצורת הרקע */
+}
+
+.seg-btn {
+  border: 0;
+  background: transparent;
+  color: var(--ring);
+  font-weight: 700;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0;        /* ברירת מחדל – מלבן */
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  flex: 1 1 0;            /* כל לשונית מתחלקת שווה בשווה ברוחב */
+  min-width: 0;
+}
+
+/* פינות עגולות גדולות רק בקצוות – כמו רקע ה-segmented */
+.seg-btn:first-child {
+  border-radius: 999px 0 0 999px;
+}
+.seg-btn:last-child {
+  border-radius: 0 999px 999px 0;
+}
+
+.seg-btn.active {
+  background: var(--ring);
+  color: #fff;
+}
+/* 🧭 Header for pages (משותף לכמה עמודים, מקור: Results.css) */
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 6px 2px 14px;
+}
+
+.page-header h2 {
+  margin: 0;
+  color: var(--text);
+}
+
+/* 🌀 Loader גלובלי (מקור: TreatmentPlan.css) */
+.tp-title {
+  margin-bottom: 12px;
+  color: #1d1b22;
+  font-weight: 900;
+}
+
+.tp-calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* 📅 רספונסיביות ליומן ה-Treatment Plan במובייל */
+@media (max-width: 768px) {
+  /* אין גלילה אופקית – מכווצים את הכל כמו יומן באייפון וממרכזים בתוך הדף */
+  .tp-calendar {
+    overflow-x: visible;
+    padding: 0 0 4px; /* בלי שוליים מיותרים – כל הרוחב של המסך */
+    box-sizing: border-box;
+    margin: 0 auto;     /* ממרכז את כל הלוח בתוך המסך */
+  }
+
+  /* שורת שמות הימים – 7 עמודות צרות באותה שורה */
+  .tp-weekdays-row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3px;
+    margin-bottom: 4px;
+    font-size: 11px;
+    padding: 0;
+  }
+
+  .tp-weekday-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* כיתוב היום בדיוק במרכז העמודה */
+  }
+
+  /* כל שבוע – 7 טורים צפופים */
+  .tp-week-row {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3px;
+  }
+
+  /* מקטינים את הקוביות לגודל "יומן טלפון" */
+  .tp-tile {
+    height: 80px;       /* כל הקוביות בדיוק באותו גובה במובייל */
+    padding: 4px 2px;
+    gap: 3px;
+    overflow: hidden;   /* אם יש יותר מידי אייקונים – נשארים בתוך הקובייה */
+  }
+
+  .tp-date {
+    font-size: 10px;
+    
+
+    
+  }
+
+  /* איקונים קטנים יותר כדי שייכנסו כולם */
+  .tp-icons {
+    font-size: 12px;
+    min-height: 16px;
+    gap: 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1;
+  }
+
+  .tp-icons svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* גם אייקון הביוץ מצטמצם במסך קטן */
+  .tp-ovulation-triangle {
+    width: 24px;
+    height: 20px;
+    border-width: 1.5px;
+  }
+
+  .tp-ovulation-pill-icon {
+    font-size: 0.8rem;
+  }
+
+  /* גלולת תרופות – אייקון קטן יותר במסכים קטנים */
+  .tp-icon-pill {
+    font-size: 0.75rem; /* עוד קצת יותר קטן במובייל, כדי לשמור פרופורציה ולא להסתיר את האייקון */
+  }
+
+  /* והמונה הקטן של הגלולות – שלא יקפוץ מחוץ למסגרת */
+  .tp-icon-pill sup {
+    top: -0.45em;
+    right: -0.3em;
+    padding: 1px 2px;
+    font-size: 0.5em;
+  }
+}
+
+.tp-task-line {
+  display:flex;
+  align-items: center;
+  gap: 6px; 
+  font-size: 15px;
+  font-weight: 700;
+  direction: rtl;
+  color: #000000;
+}
+
+.task-visual {
+  direction: rtl;
+  padding: 6px 8px;
+}
+
+.task-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.task-text {
+  color: #1d1b22;
+
+  text-align: right;
+}
+
+.task-icon {
+  display: inline-flex;
+  gap: 6px; 
+  font-size: 22px;
+  color: #5b41a8;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.tp-week-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.tp-tile {
+  border-radius: 12px;
+  border: 1px solid #e7e4f6;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(20, 16, 35, 0.06);
+  padding: 10px 8px;
+  text-align: center;
+  cursor: pointer;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 6px;
+}
+
+.tp-tile.active {
+  border: 2px solid #7e4bbf;
+  background: #f4f0ff;
+}
+
+.tp-tile.empty {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  cursor: default;
+}
+
+.tp-date {
+  font-weight: 800;
+  color: #5b41a8;
+}
+
+.tp-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #eee6ff;
+  border: 1px solid #dccfff;
+  color: #5b41a8;
+  font-weight: 800;
+  font-size: 12px;
+  min-height: 20px; /* גובה קבוע לשורת הבאז' כדי שכל הקוביות יהיו אחידות */
+}
+
+/* גרסה ריקה – ללא רקע/מסגרת, רק לשמירת גובה אחיד */
+.tp-badge.tp-badge-empty {
+  background: transparent;
+  border-color: transparent;
+}
+
+.tp-chosen {
+  display: inline-block;
+  margin: 4px auto;    
+  background: #f0ecff;
+  border: 1px solid #e6ddff;
+  color: #5b41a8;
+  border-radius: 999px;
+  padding: 4px 10px;  
+  font-weight: 800;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tp-message {
+  padding: 8px 6px;
+  border-bottom: 1px solid #f1f0f6;
+}
+
+.tp-message-dr {
+  font-weight: 800;
+}
+
+.tp-message-text {
+  margin-top: 2px;
+}
+
+.tp-task {
+  font-size: 14px;
+}
+
+.tp-no-task {
+  color: #7e4bbf;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tp-med {
+  padding: 10px 6px;
+  border-bottom: 1px solid #f1f0f6;
+}
+
+.tp-med-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tp-done-btn {
+  background: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 10px;
+  padding: 6px 12px;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  min-width: 110px;
+}
+
+.tp-done-btn.done {
+  background: #7e4bbf;
+  color: #fff;
+}
+
+.tp-modal-text {
+  font-weight: 700;
+  color: #5b41a8;
+  margin-bottom: 8px;
+}
+
+.tp-modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.tp-modal-btn {
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  border: none;
+  background: #eee;
+  color: #333;
+  min-width: 110px;
+}
+
+.tp-modal-btn.filled {
+  background: #7e4bbf;
+  color: #fff;
+}
+
+.tp-med-quantity {
+  font-size: 14px;
+  color: #444;
+  margin-top: 4px;
+}
+
+.tp-med-doctor {
+  font-size: 13px;
+  color: #9b59b6;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.tp-icon-pill {
+  position: relative;
+  display: inline-block;
+  font-size: 1em; /* גודל ברירת המחדל – כמו שאר האייקונים */
+}
+
+.tp-icon-pill sup {
+  position: absolute;
+  top: -0.5em;
+  right: -0.4em;
+  font-size: 0.55em;    /* מונה קטן יותר, שלא יכסה את הגלולה */
+  background: #fff;
+  border-radius: 50%;
+  padding: 1px 3px;
+  color: #000;
+  border: 1px solid #ccc;
+  line-height: 1;
+}
+
+/* 🔺 אייקון מיוחד לתרופות ביוץ – גלולה בתוך משולש צהוב + מונה קטן */
+.tp-ovulation-pill {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tp-ovulation-triangle {
+  width: 34px;
+  height: 30px;
+  background: #ffeb3b;
+  border: 2px solid #fbc02d;
+  border-radius: 4px;
+  clip-path: polygon(50% 4%, 4% 96%, 96% 96%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tp-ovulation-pill-icon {
+  font-size: 1.1rem; /* אותו גודל כמו אייקון גלולה רגיל */
+  line-height: 1;
+}
+
+.tp-ovulation-count {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: #e53935;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 1px 4px;
+  line-height: 1;
+}
+
+.tp-med-period {
+  margin-top: 4px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.tp-reminder-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.tp-done-icon {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.tp-done-icon.yes {
+  color: rgb(253, 254, 255);
+}
+
+.tp-done-icon.no {
+  color: gray;
+}
+
+.tp-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.tp-half {
+  flex: 1;
+  min-width: 280px;
+}
+
+.tp-tile.today {
+  border-color: #7e4bbf;
+  background: #eae0ff;
+}
+
+.tp-weekday {
+  font-size: 12px;
+  color: #5b41a8;
+  margin-left: 4px;
+}
+
+.tp-weekdays-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #666;
+  direction: rtl;
+  padding: 0 2px;
+}
+
+.tp-weekday-cell {
+  flex: 1;
+  text-align: center;
+}
+
+/* דרופדאון כללי לאפליקציה */
+.custom-dropdown-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.custom-dropdown-select {
+  border-radius: 8px;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-weight: 700;
+  color: #5b41a8;
+  min-width: 140px;
+  max-width: 100%;
+  flex: 1;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+.custom-dropdown-select:focus,
+.custom-dropdown-select:hover {
+  border-color: #baa0e6;
+  outline: none;
+}
+
+@media (max-width: 1100px) {
+  .mobile-controls-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 4px 0 0;
+  }
+  .mobile-controls-row select,
+  .mobile-controls-row button {
+    font-size: 12px !important;
+    padding: 2px 6px !important;
+    min-width: 94px !important;
+    border-radius: 6px !important;
+    max-width: 98vw;
+    white-space: normal !important;
+    word-break: break-word;
+  }
+  .mobile-controls-row .cycle-select,
+  .mobile-controls-row .custom-dropdown-select {
+    min-width: 115px !important;
+    max-width: 165px !important;
+    white-space: normal !important;
+    word-break: break-word;
+  }
+  .mobile-controls-row .last-update-text {
+    font-size: 11px !important;
+    padding: 0 2px;
+    white-space: nowrap;
+    max-width: 98vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media (min-width: 1001px) {
+  .mobile-controls-row {
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

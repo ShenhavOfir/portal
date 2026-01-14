@@ -1,0 +1,21 @@
+.tests-preview {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.tests-preview h3 {
+  color: #7e4bbf;
+}
+
+.tests-preview ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tests-preview li {
+  margin: 0.5rem 0;
+}

@@ -1,0 +1,127 @@
+/* עטיפת דף הבית – קופסה סגולה רכה, ממורכזת במסכים גדולים */
+.dashboard-container {
+  background: #f7f4ff; /* לבן סגלגל עדין */
+  padding: 2rem 1rem;
+  border-radius: 16px;
+  width: 100%;
+}
+
+/* כיוון תלוי שפה */
+.dashboard-container[dir="rtl"] { text-align: right; }
+.dashboard-container[dir="ltr"] { text-align: left; }
+
+.dashboard-row {
+  margin-top: 2rem;
+}
+
+.dashboard-card {
+  padding: 2rem;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #e6ddff;
+  box-shadow: 0 6px 18px rgba(126, 75, 191, 0.08);
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(126, 75, 191, 0.12);
+}
+
+/* באנר למחזור סגור בתוך כרטיס "היום" */
+.closed-cycle-banner {
+  margin-top: 0.5rem;
+}
+
+
+.dashboard-section {
+  margin-top: 2rem;
+}
+
+.preview-box {
+  background: white;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+/* יישור פנימי לפי כיוון */
+.preview-box[dir="rtl"] { text-align: right; }
+.preview-box[dir="ltr"] { text-align: left; }
+
+.preview-box h4 {
+  color: #7e4bbf;
+  margin-bottom: 0.5rem;
+}
+
+.preview-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.preview-box li {
+  margin-bottom: 0.3rem;
+}
+/* .tp-icons svg {
+  vertical-align: middle;
+  margin-inline-start: 4px;
+  stroke: #6b4bb8; */
+   /* צבע סגול כהה */
+  /* width: 20px;
+  height: 20px;
+} */
+/* .tp-pill-box {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #f4f1fc;
+  border: 1px solid #a984df;
+  border-radius: 12px;
+  color: #6a1b9a;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 6px;
+}
+.tp-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 16px;
+}
+.tp-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 16px;
+} */
+/* 🎨 רקע כללי רך ונעים – נשאר כחלק מהקופסה לעיל */
+.tp-embedded-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+/* מבטל רווח בין המשימה לתרופות בדשבורד בלבד */
+.dashboard-card .tp-section {
+  margin-top: 12px;
+}
+
+/* אם יש עטיפה חיצונית נוספת */
+.dashboard-card .tp-embedded-wrapper {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+
+.ova-toolbar {
+  margin: 8px 0 14px;
+  display: flex;
+}
+.ova-toolbar.center {
+  justify-content: center;
+}

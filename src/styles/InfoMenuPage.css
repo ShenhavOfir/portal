@@ -1,0 +1,147 @@
+/* סגנון כמו אודות עבור כותרת “מידע” */
+.info-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;  /* כדי שהמשולש יהיה בצד ימין */
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #663399;  /* סגול כמו אודות */
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  text-align: right;
+  direction: rtl;
+}
+
+.info-toggle .arrow {
+  margin-right: 0; /* אין הזחה מיוחדת משמאל */
+  margin-left: 0.5rem; /* מעט רווח קטן אם רוצים בין הטקסט למשולש */
+}
+
+/* ודאי שאין נקודת ריבוי בכיתה הזו */
+.large-link::before {
+  content: none;
+}
+
+/* צבע לטקסט שמתחת */
+.category-list,
+.category-list a,
+.category-title {
+  color: #000;
+}
+
+/* סגנונות כלליים לפריטים */
+.category-item button,
+.category-item a {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 1rem;
+  text-align: right;
+}
+/* ממשיך להוסיף נקודה לכפתורי large-link */
+.large-link::before {
+  content: "• ";
+  margin-left: 0.3rem;
+  color: #663399;
+}
+
+/* ❌ מבטל את הנקודה רק עבור “מידע” */
+.info-toggle.large-link::before {
+  content: none;
+}
+.info-back-btn {
+  background: none;
+  border: none;
+  color: #7e4bbf;
+  cursor: pointer;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.info-title {
+  margin-top: 60px; /* כדי לא ליפול על החץ */
+  color: #7e4bbf;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.info-content {
+  margin-top: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.info-page {
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background: #faf7ff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* .info-back-btn {
+  background: none;
+  border: none;
+  color: #7e4bbf;
+  font-size: 26px;
+  cursor: pointer;
+  margin-bottom: 10px;
+} */
+
+.info-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #5b41a8;
+  margin-bottom: 20px;
+}
+
+/* כל קטגוריה עטופה בכרטיס */
+.category-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.category-title,
+.category-title.always {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #5b41a8;
+  margin-bottom: 10px;
+  border: none;
+  background: none;
+  text-align: start;
+  cursor: pointer;
+}
+
+/* רשימת לינקים */
+/* .link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-list li {
+  margin: 6px 0;
+}
+
+.link-list a {
+  text-decoration: none;
+  color: #444;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.link-list a:hover {
+  color: #7e4bbf;
+  text-decoration: underline;
+} */

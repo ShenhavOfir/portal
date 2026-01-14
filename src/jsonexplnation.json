@@ -1,0 +1,1563 @@
+{
+  "id": "94293cb1afd692ce2fa2172bd6b73c398cd2f06f50a7b0b9ecd3def8e9877ff59",
+  "acode": {
+    "active": "false",
+    "expiration": "20390317"
+  },
+
+    "cycles": [
+        {
+            "ovulation": [ 
+                //  תרופת ביוץ
+                {
+                    "doctor": "",
+                    "medicine": "Ovitrelle 250Mcg",
+                    "day": "20250702",
+                    "hour": "",
+                    "take": "no"
+                },
+                {
+                    "doctor": "",
+                    "medicine": "Dual Trigger",
+                    "day": "20250707",
+                    "hour": "",
+                    "take": "no"
+                }
+            ],
+            "firstdays": { // מתי מתחיל המחזור
+                "firstdaycycle": "20250415",
+                "firstdaysupport": "20250601",
+                "firstdaysuppress": "20250331"
+            },
+              "summary": {
+                "type": "1",// 1= טרי
+                "day": "20241105",//יום השאיבה
+                "pumping": "4",//- כמה נשאבו במידה והמחזור טרי
+                 "fertilitation": "3"//כמה הופרו במידה והמחזור טרי( תלוי בשאיבה אם ריק או לא )
+                "injection": "4",// ( תלוי בשאיבה אם ריק או לא לא מעניין כרגע אבל הוזרקו
+                "discontinued": "2"//( תלוי בשאיבה אם ריק או לא  כמה הופרו
+                 "frozen": "0",.// ( תלוי בשאיבה אם ריק או לא כמה הוקפאו
+                "return": {
+                    "fresh": "2", // כמה הוחזרו טריים
+                    "thawed": "0", // כמה הוחזרו מופשרים
+                    "day": "20241108" // אם אין תאריך אז לא להציג את כל האובייקט- תאריך החזרה
+                },
+                "returnagain": { // אם אין תאריך אז לא להציג את כל האובייקט- תאריך החזרה שנייה
+                    "fresh": "0",
+                    "thawed": "0",// לא מצאתי
+                    "day": "0"
+                },
+                "defrost": "0",//- אם הוא אפס כל הנתונים ממתחת לא להציג כמה הופשרו
+                "defrostdate": "0", // תאריך ההפשרה
+                "defrostfertilitation": "0",
+                "defrostdiscontinued": "0",// לא מצאתי
+                "donation": "0",// לא מצאתי
+                "ovaryfrozeninhospital": null// לא מצאתי
+            },
+          
+            "dates": [ // ימים ביומן - בכל יום יכול להיות תרופה או בדיקה או אירוע או הודעה אישית
+                {
+                    "date": "20250331",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250401",
+                    "medicines": [
+                        {
+                            "name": "(s.c. GONAL-F (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250402",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250403",
+                    "medicines": [
+                        {
+                            "name": "(s.c. GONAL-F (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250404",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250405",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250406",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250407",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250408",
+                    "medicines": [
+                        {
+                            "name": "(s.c. GONAL-F (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250409",
+                    "medicines": [
+                        {
+                            "name": "(s.c. GONAL-F (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250410",
+                    "medicines": [
+                        {
+                            "name": "(s.c. GONAL-F (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250411",
+                    "medicines": [
+                        {
+                            "name": "(s.c. GONAL-F (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250412",
+                    "medicines": [
+                        {
+                            "name": "(s.c. GONAL-F (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250413",
+                    "medicines": [
+                        {
+                            "name": "(s.c. GONAL-F (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",// אירוע
+                    "infoday": []// הודעה שהיא קיבלה באותו יום
+                },
+                {
+                    "date": "20250414",
+                    "medicines": [
+                        {
+                            "name": "(s.c. GONAL-F (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250415",
+                    "medicines": [
+                        {
+                            "name": "(s.c. GONAL-F (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        },
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250416",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "(s.c. MENOPUR (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "s.c. ELONVA  mcg",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        },
+                        {
+                            "name": "(Nasal Spray BUSESRLIN (2 puff",
+                            "type": "",
+                            "quantity": "323",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "0",
+                    "infoday": []
+                },
+                {
+                    "date": "20250417",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "(s.c. MENOPUR (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "Tab. IKACLOMID 50mg ",
+                            "type": "",
+                            "quantity": "54",
+                            "take": "no"
+                        },
+                        {
+                            "name": "s.c. ELONVA  mcg",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": " בוקר (s.c. PERGOVERIS-(IU",
+                            "type": "",
+                            "quantity": "323",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250418",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "(s.c. MENOPUR (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "Tab. IKACLOMID 50mg ",
+                            "type": "",
+                            "quantity": "54",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250419",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "(s.c. MENOPUR (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": " בוקר (s.c. PERGOVERIS-(IU",
+                            "type": "",
+                            "quantity": "323",
+                            "take": "no"
+                        },
+                        {
+                            "name": "(Nasal Spray BUSESRLIN (2 puff",
+                            "type": "",
+                            "quantity": "323",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250420",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "(s.c. MENOPUR (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "(Nasal Spray BUSESRLIN (2 puff",
+                            "type": "",
+                            "quantity": "323",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250421",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "(s.c. MENOPUR (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250422",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "(s.c. MENOPUR (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250423",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        },
+                        {
+                            "name": "(s.c. MENOPUR (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250424",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250425",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250426",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250427",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250428",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250429",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250430",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "999",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250501",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250502",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250503",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250504",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250505",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250506",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250507",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250508",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250509",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250510",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250511",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250512",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250513",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250514",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250515",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250516",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250517",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250518",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250519",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250520",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250521",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250522",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250523",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250524",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250525",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250526",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250527",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250528",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250529",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250530",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250531",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250601",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250602",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250603",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250604",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250605",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250606",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250607",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250608",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250609",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250610",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250611",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250612",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250613",
+                    "medicines": [
+                        {
+                            "name": " בוקר (s.c. MENOPUR-  (IU",
+                            "type": "",
+                            "quantity": "99",
+                            "take": "no"
+                        }
+                    ],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250614",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250615",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250616",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250617",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250618",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250619",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250620",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250621",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250622",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250623",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250624",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250625",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250626",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250627",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250628",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250629",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250630",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250701",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250702",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250703",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250704",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250705",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250706",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": [
+                        {
+                            "dr": "OBG SOFT - Majdoleen Elyan",
+                            "message": "קיבלו הדרכה לגבי שלבי הטיפול ",
+                            "id": "4"
+                        }
+                    ]
+                },
+                {
+                    "date": "20250707",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250708",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [],
+                        "ultrasound": []
+                    },
+                    "actions": "-1",
+                    "infoday": []
+                },
+                {
+                    "date": "20250709",
+                    "medicines": [],
+                    "examinations": {
+                        "blood": [
+                            {
+                                "name": "LH",
+                                "result": "54"
+                            },
+                            {
+                                "name": "E2",
+                                "result": "54"
+                            },
+                            {
+                                "name": "FSH",
+                                "result": "54"
+                            }
+                        ],
+                        "ultrasound": []
+                    },
+                    "actions": "0",
+                    "infoday": []
+                }
+            ],
+            "medicinesrelease": { // תרופות בשחרור
+                "medicinerelease": [
+                    {
+                        "dr": "OBG SOFT - Majdoleen Elyan",
+                        "fromdate": "19000101",
+                        "todate": "20250803",
+                        "name": "(s.c. PERGOVERIS (IU",
+                        "type": "Vag Gel",
+                        "strong": "10",
+                        "sign": "",
+                        "quantity": "-1",
+                        "times": "-1",
+                        "period": ""
+                    }
+                ]
+            },
+            "isopen": "true",
+            "medicalcenterid": "2919113"
+        }
+    ],
+    "ovaryfrozeninhospital": "2", //כמה ביציות נשארו במקררים
+    "spermfrozeninhospital": "0",//כמה זרע נשאר
+    "medicalcentername": "שיבא",//מאיזה בית חולים המחזור הנוכחי
+    "notifications": {//התראות
+        "pushnumber": [
+            "0"
+        ],
+        "messages": [
+            {
+                "time": "202507081748",
+                "message": "התקבל עדכון למשימות",
+                "see": "yes"
+            },
+            {
+                "time": "202507081800",
+                "message": "התקבל עדכון למשימות",
+                "see": "yes"
+            },
+            {
+                "time": "202507081805",
+                "message": "התקבל עדכון למשימות",
+                "see": "yes"
+            },
+            {
+                "time": "202507081832",
+                "message": "התקבל עדכון למשימות",
+                "see": "yes"
+            },
+            {
+                "time": "202507091058",
+                "message": "התקבל עדכון למשימות",
+                "see": "yes"
+            },
+            {
+                "time": "202507091058",
+                "message": "התקבלה הודעה מהצוות המטפל",
+                "see": "yes"
+            },
+            {
+                "time": "202507091059",
+                "message": "התקבל עדכון למשימות",
+                "see": "yes"
+            },
+            {
+                "time": "202507091130",
+                "message": "התקבל עדכון למשימות",
+                "see": "yes"
+            },
+            {
+                "time": "202507091130",
+                "message": "התקבל עדכון לתרופות",
+                "see": "yes"
+            },
+            {
+                "time": "202507091130",
+                "message": "התקבל עדכון לתרופות",
+                "see": "yes"
+            },
+            {
+                "time": "202507091130",
+                "message": "התקבל עדכון לתרופות",
+                "see": "yes"
+            },
+            {
+                "time": "202507091130",
+                "message": "התקבל עדכון לתרופות",
+                "see": "yes"
+            }
+        ]
+    },
+    "tasklist": {// משימות למטופלת
+        "task": [
+            {
+                "todo": "משימה",
+                "dateupto": "19000101",
+                "done": "no",
+                "executiondate": "20250706",
+                "remarks": ""
+            },
+            {
+                "todo": "משימה",
+                "dateupto": "19000101",
+                "done": "no",
+                "executiondate": "20250707",
+                "remarks": ""
+            }
+        ]
+    },
+      "medicalcenterid": "114",
+  "isprivatemedicalcenter": "False",
+  "patientID": "9326f73e47d04d9b2a07c387c555d453e118e4744ced6235d0a7d0f628051174",
+  "patientPhone": "6dbe1f6fe7f75a3c5556b71a414c202eb53cb41d13f9decf55b5acab5e3f6dca + e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}
+
+

@@ -1,0 +1,40 @@
+/* CycleSelect style */
+.cycle-select-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 12px 0;
+}
+
+.cycle-select-wrapper.compact {
+  margin: 4px 0;
+  width: 100%;
+}
+
+.cycle-select {
+  border-radius: 8px;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  font-weight: 700;
+  color: #5b41a8;
+  min-width: 220px;
+  max-width: 360px;
+  width: 100%;
+}
+
+.cycle-select.compact {
+  min-width: 120px;
+  padding: 5px 8px;
+}
+/* מייעל את בוחר המחזור כשהוא ב־compact */
+.cycle-select-small {
+  min-width: unset !important;
+  max-width: 120px;
+  flex-shrink: 1;
+}
+
+@media (max-width: 768px) {
+  .cycle-select-wrapper.compact {
+    margin: 2px 0;
+  }
+}
