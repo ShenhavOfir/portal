@@ -1,12 +1,14 @@
 /* src/styles/ActionButtons.css */
 
-/* מכיל גבולות נקי לבסיס אזור הכפתורים */
+/* Container for action buttons - positioned at 50% of viewport to sit on purple/white split */
 .action-buttons-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin-bottom: 1.5rem;
+  /* Position buttons to align with the 50vh split point */
+  position: relative;
 }
 
 /* עטיפה פנימית לשלושת הכפתורים */

@@ -6,6 +6,7 @@ import "../styles/LoginPage.css";
 import { useTranslation } from "react-i18next";
 import LanguageSelectorLogin from "../components/LanguageSelectorLogin";
 import ActionButtons from "../components/ActionButtons";
+import BackgroundSplit from "../components/BackgroundSplit";
 import { FaRegEye, FaQuestionCircle, FaRegFileAlt, FaIdCard, FaQrcode } from "react-icons/fa";
 import Popup from "../components/Popup";
 import TermsModal from "../components/TermsModal";
@@ -43,76 +44,78 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="login-container">
-      <LanguageSelectorLogin />
-      <h1 className="logo">eve4u</h1>
-      <p className="subtitle">{t("scanBarcodeInstructions")}</p>
+    <BackgroundSplit>
+      <div className="login-container">
+        <LanguageSelectorLogin />
+        <h1 className="logo">eve4u</h1>
+        <p className="subtitle">{t("scanBarcodeInstructions")}</p>
 
-      <button className="start-btn" onClick={handleStart}>
-        {t("start")}
-      </button>
+        <button className="start-btn" onClick={handleStart}>
+          {t("start")}
+        </button>
 
-      <ActionButtons
-        buttons={[
-          {
-            icon: <FaRegFileAlt size={26} />,
-            label: t("infoMenu"),
-            onClick: () => navigate("/info-menu"),
-          },
-          {
-            icon: <FaRegEye size={26} />,
-            label: t("demo"),
-            onClick: () => navigate("/demo"),
-          },
-          {
-            icon: <FaQuestionCircle size={26} />,
-            label: t("technicalSupport"),
-            onClick: () => navigate("/contact"),
-          },
-        ]}
-      />
-
-      <div className="terms-row">
-        <input
-          type="checkbox"
-          id="terms"
-          checked={accepted}
-          onChange={(e) => setAccepted(e.target.checked)}
+        <ActionButtons
+          buttons={[
+            {
+              icon: <FaRegFileAlt size={26} />,
+              label: t("infoMenu"),
+              onClick: () => navigate("/info-menu"),
+            },
+            {
+              icon: <FaRegEye size={26} />,
+              label: t("demo"),
+              onClick: () => navigate("/demo"),
+            },
+            {
+              icon: <FaQuestionCircle size={26} />,
+              label: t("technicalSupport"),
+              onClick: () => navigate("/contact"),
+            },
+          ]}
         />
-        <label htmlFor="terms">
-          {t("agreeToTerms")}{" "}
-          <span className="link" onClick={() => setShowTerms(true)}>
-            {t("agreeToTerms_2")}
-          </span>
-        </label>
-      </div>
 
-      <Popup message={popup} onClose={() => setPopup("")} />
-
-      {showOptions && (
-        <div className="tp-modal-backdrop">
-          <div className="tp-modal-box">
-            <button className="tp-close-btn" onClick={() => setShowOptions(false)}>
-              ✖
-            </button>
-
-            <button className="tp-modal-btn small" onClick={() => handleOption("barcode")}>
-              <FaQrcode size={18} /> {t("barcodeScan")}
-            </button>
-
-            <button className="tp-modal-btn small" onClick={() => handleOption("id")}>
-              <FaIdCard size={18} /> {t("idConnect")}
-            </button>
-          </div>
+        <div className="terms-row">
+          <input
+            type="checkbox"
+            id="terms"
+            checked={accepted}
+            onChange={(e) => setAccepted(e.target.checked)}
+          />
+          <label htmlFor="terms">
+            {t("agreeToTerms")}{" "}
+            <span className="link" onClick={() => setShowTerms(true)}>
+              {t("agreeToTerms_2")}
+            </span>
+          </label>
         </div>
-      )}
 
-      {showTerms && (
-        <TermsModal
-          pdfUrl="/terms.pdf"
-          onClose={() => setShowTerms(false)}
-        />
-      )}
-    </div>
+        <Popup message={popup} onClose={() => setPopup("")} />
+
+        {showOptions && (
+          <div className="tp-modal-backdrop">
+            <div className="tp-modal-box">
+              <button className="tp-close-btn" onClick={() => setShowOptions(false)}>
+                ✖
+              </button>
+
+              <button className="tp-modal-btn small" onClick={() => handleOption("barcode")}>
+                <FaQrcode size={18} /> {t("barcodeScan")}
+              </button>
+
+              <button className="tp-modal-btn small" onClick={() => handleOption("id")}>
+                <FaIdCard size={18} /> {t("idConnect")}
+              </button>
+            </div>
+          </div>
+        )}
+
+        {showTerms && (
+          <TermsModal
+            pdfUrl="/terms.pdf"
+            onClose={() => setShowTerms(false)}
+          />
+        )}
+      </div>
+    </BackgroundSplit>
   );
 }

@@ -76,15 +76,7 @@
   min-height: 100vh;
   text-align: center;
   padding: 2rem 1rem;
-
-  /* רקע אחיד לכל המסכים – אותו עיצוב במובייל ובדסקטופ */
-  background: linear-gradient(
-    to bottom,
-    #ffffff 0%,
-    #ffffff 60%,  /* טיפה יותר לבן – הסגול נעצר קצת לפני סוף העיגולים */
-    #7b3f98 60%,
-    #7b3f98 100%  /* אזור סגול מלמטה */
-  );
+  background: transparent; /* Background handled by BackgroundSplit component */
 }
 /* עיצוב כפתורי ברקוד/ת"ז */
 .login-options {
