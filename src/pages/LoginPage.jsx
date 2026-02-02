@@ -5,7 +5,9 @@ import { useNavigate } from "react-router-dom";
 import "../styles/LoginPage.css";
 import { useTranslation } from "react-i18next";
 import LanguageSelectorLogin from "../components/LanguageSelectorLogin";
-import { FaRegEye, FaQuestionCircle, FaRegFileAlt, FaIdCard, FaQrcode } from "react-icons/fa";
+import PurpleBackgroundSection from "../components/PurpleBackgroundSection";
+import FloatingActionButtons from "../components/FloatingActionButtons";
+import { FaIdCard, FaQrcode } from "react-icons/fa";
 import Popup from "../components/Popup";
 import TermsModal from "../components/TermsModal";
 import "../styles/global.css";
@@ -42,31 +44,17 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="login-container">
-      <LanguageSelectorLogin />
-      <h1 className="logo">eve4u</h1>
-      <p className="subtitle">{t("scanBarcodeInstructions")}</p>
+    <PurpleBackgroundSection>
+      <div className="login-container">
+        <LanguageSelectorLogin />
+        <h1 className="logo">eve4u</h1>
+        <p className="subtitle">{t("scanBarcodeInstructions")}</p>
 
-      <button className="start-btn" onClick={handleStart}>
-        {t("start")}
-      </button>
-
-      <div className="actions-row">
-        <button onClick={() => navigate("/info-menu")}>
-          <FaRegFileAlt size={26} />
-          <span>{t("infoMenu")}</span>
+        <button className="start-btn" onClick={handleStart}>
+          {t("start")}
         </button>
 
-        <button onClick={() => navigate("/demo")}>
-          <FaRegEye size={26} />
-          <span>{t("demo")}</span>
-        </button>
-
-        <button onClick={() => navigate("/contact")}>
-          <FaQuestionCircle size={26} />
-          <span>{t("technicalSupport")}</span>
-        </button>
-      </div>
+        <FloatingActionButtons />
 
       <div className="terms-row">
         <input
@@ -109,6 +97,7 @@ export default function LoginPage() {
           onClose={() => setShowTerms(false)}
         />
       )}
-    </div>
+      </div>
+    </PurpleBackgroundSection>
   );
 }

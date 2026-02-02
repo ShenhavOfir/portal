@@ -1,0 +1,76 @@
+/* src/styles/FloatingActionButtons.css */
+
+.floating-actions-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.floating-actions-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.floating-action-btn {
+  border-radius: 50%;
+  width: 95px;
+  height: 95px;
+  border: none;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  color: #7b3f98;
+  cursor: pointer;
+  transition: 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Heebo", Arial, sans-serif;
+}
+
+.floating-action-btn:hover {
+  background: #f2e8f7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.floating-action-btn svg {
+  margin-bottom: 0.4rem;
+  font-size: 1.3rem;
+}
+
+.floating-action-btn span {
+  font-size: 0.85rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .floating-actions-row {
+    gap: 1.2rem;
+  }
+
+  .floating-action-btn {
+    width: 80px;
+    height: 80px;
+    font-size: 0.9rem;
+  }
+
+  .floating-action-btn svg {
+    font-size: 1.1rem;
+  }
+
+  .floating-action-btn span {
+    font-size: 0.75rem;
+  }
+}
