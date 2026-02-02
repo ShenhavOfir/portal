@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import "../styles/LoginPage.css";
 import { useTranslation } from "react-i18next";
 import LanguageSelectorLogin from "../components/LanguageSelectorLogin";
+import ActionButtons from "../components/ActionButtons";
 import { FaRegEye, FaQuestionCircle, FaRegFileAlt, FaIdCard, FaQrcode } from "react-icons/fa";
 import Popup from "../components/Popup";
 import TermsModal from "../components/TermsModal";
@@ -51,22 +52,25 @@ export default function LoginPage() {
         {t("start")}
       </button>
 
-      <div className="actions-row">
-        <button onClick={() => navigate("/info-menu")}>
-          <FaRegFileAlt size={26} />
-          <span>{t("infoMenu")}</span>
-        </button>
-
-        <button onClick={() => navigate("/demo")}>
-          <FaRegEye size={26} />
-          <span>{t("demo")}</span>
-        </button>
-
-        <button onClick={() => navigate("/contact")}>
-          <FaQuestionCircle size={26} />
-          <span>{t("technicalSupport")}</span>
-        </button>
-      </div>
+      <ActionButtons
+        buttons={[
+          {
+            icon: <FaRegFileAlt size={26} />,
+            label: t("infoMenu"),
+            onClick: () => navigate("/info-menu"),
+          },
+          {
+            icon: <FaRegEye size={26} />,
+            label: t("demo"),
+            onClick: () => navigate("/demo"),
+          },
+          {
+            icon: <FaQuestionCircle size={26} />,
+            label: t("technicalSupport"),
+            onClick: () => navigate("/contact"),
+          },
+        ]}
+      />
 
       <div className="terms-row">
         <input

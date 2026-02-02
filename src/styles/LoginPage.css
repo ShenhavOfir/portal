@@ -47,41 +47,7 @@
   background: #e9dff2;
 }
 
-.actions-row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  margin-bottom: 1.5rem;
-}
-
-.actions-row button {
-  border-radius: 50%;
-  width: 95px;
-  height: 95px;
-  border: none;
-  background: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-  color: #7b3f98;
-  cursor: pointer;
-  transition: 0.2s ease;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;        /* טקסט ברור יותר */
-  font-weight: 500;
-  font-family: "Heebo", Arial, sans-serif;
-}
-
-.actions-row button:hover {
-  background: #f2e8f7;
-}
-
-.actions-row button svg {
-  margin-bottom: 0.4rem;
-  font-size: 1.3rem;       /* אייקון יותר גדול */
-}
+/* Styles moved to ActionButtons.css component */
 
 
 .terms-row {
