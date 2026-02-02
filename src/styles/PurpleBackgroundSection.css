@@ -9,12 +9,12 @@
   text-align: center;
   padding: 2rem 1rem;
 
-  /* Gradient background: white top, purple bottom, split at 52% */
+  /* Gradient background: white top, purple bottom, split at 41% */
   background: linear-gradient(
     to bottom,
     #ffffff 0%,
-    #ffffff 52%,
-    #7b3f98 52%,
+    #ffffff 41%,
+    #7b3f98 41%,
     #7b3f98 100%
   );
 }

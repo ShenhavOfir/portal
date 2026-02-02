@@ -4,7 +4,7 @@ import "../styles/PurpleBackgroundSection.css";
 
 /**
  * PurpleBackgroundSection - A component that creates a vertical gradient background
- * splitting white (top) and purple (bottom) at exactly 52% to center the action buttons
+ * splitting white (top) and purple (bottom) at exactly 41% to center the action buttons
  * 
  * @param {React.ReactNode} children - Content to render within the background
  */
