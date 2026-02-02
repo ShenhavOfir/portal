@@ -5,12 +5,12 @@
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
-  background: #fff;
+  background: transparent; /* Background handled by BackgroundSplit component */
   text-align: center;
   padding: 2rem 1rem;
 }
 
-/* .logo {
+.logo {
   font-size: 2.6rem;      
   font-weight: bold;
   color: #7b3f98;
@@ -26,7 +26,7 @@
   max-width: 340px;
   line-height: 1.6;
   font-family: "Heebo", Arial, sans-serif;
-} */
+}
 
 .start-btn {
   width: 220px;            /* קצת יותר גדול */
@@ -68,16 +68,7 @@
   text-decoration: underline;
   cursor: pointer;
 }
-.login-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  min-height: 100vh;
-  text-align: center;
-  padding: 2rem 1rem;
-  background: transparent; /* Background handled by BackgroundSplit component */
-}
+
 /* עיצוב כפתורי ברקוד/ת"ז */
 .login-options {
   display: flex;
@@ -103,6 +94,7 @@
 }
 /* הקופסה הלבנה */
 .tp-modal-box {
+  position: relative;
   background: #fff;
   border-radius: 16px;
   padding: 16px;
@@ -183,7 +175,7 @@
 }
 
 
-/* .tp-modal-backdrop {
+.tp-modal-backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -196,15 +188,49 @@
   z-index: 1000;
 }
 
-.tp-modal-box {
-  background: #fff;
+.tp-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #666;
+  padding: 4px 8px;
+  transition: color 0.2s;
+}
+
+.tp-close-btn:hover {
+  color: #000;
+}
+
+.tp-modal-btn {
+  width: 100%;
+  padding: 14px 20px;
   border-radius: 12px;
-  padding: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background: #f3e8ff;
+  color: #4a148c;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s;
   display: flex;
-  flex-direction: column;
-} */
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.tp-modal-btn:hover {
+  background: #d1c4e9;
+}
+
+.tp-modal-btn.small {
+  padding: 12px 18px;
+  font-size: 15px;
+}
 /* .link {
   cursor: pointer;
   color: #663399;
