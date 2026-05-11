@@ -1,5 +1,5 @@
-/* סגנון האייקון הצף בלבד — בלי כללים כלליים! */
-/* .cf-floating {
+/* ContactFloating styles (migrated from global.css) */
+.cf-floating {
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -16,5 +16,19 @@
   z-index: 9999;
   transition: background 0.25s, transform 0.15s;
 }
-.cf-floating:hover { background: #5b3a91; transform: scale(1.05); }
-.cf-icon { font-size: 28px; line-height: 1; pointer-events: none; } */
+
+/* Kept behavior exactly as it was in global.css */
+.cf-floating {
+  display: none !important; /* מוסתרת כרגע, אבל הקוד נשאר */
+}
+
+.cf-floating:hover {
+  background: #5b3a91;
+  transform: scale(1.05);
+}
+
+.cf-icon {
+  font-size: 28px;
+  line-height: 1;
+  pointer-events: none;
+}

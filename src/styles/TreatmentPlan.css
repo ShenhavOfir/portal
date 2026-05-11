@@ -367,6 +367,15 @@
   vertical-align: middle;
 }
 
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #7e4bbf;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+}
+
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
@@ -471,4 +480,601 @@
   .tp-date {
     font-size: 0.75rem;
   }
+}
+
+/* רוחב ביניים (601–768): לא להתנהג כמו מובייל קטן */
+@media (min-width: 601px) and (max-width: 768px) {
+  .tp-weekdays-row {
+    font-size: 13px;
+  }
+
+  .tp-tile {
+    height: 66px;      /* קוביות פחות גבוהות */
+    padding: 6px 4px;
+    gap: 4px;
+  }
+
+  .tp-date {
+    font-size: 13px;   /* התאריך יותר קריא */
+  }
+
+  .tp-icons {
+    font-size: 14px;
+    min-height: 18px;
+  }
+
+  .tp-icons svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* moved from global.css: TreatmentPlan single-use selectors */
+.tp-calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tp-task-line {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 700;
+  direction: rtl;
+  color: #000000;
+}
+
+.tp-week-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  align-items: stretch;
+  grid-auto-rows: 1fr;
+}
+
+.tp-tile {
+  border-radius: 12px;
+  border: 1px solid #e7e4f6;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(20, 16, 35, 0.06);
+  padding: 10px 8px;
+  text-align: center;
+  cursor: pointer;
+  min-height: 96px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 6px;
+  box-sizing: border-box;
+}
+
+.tp-tile.active {
+  border: 2px solid #7e4bbf;
+  background: #f4f0ff;
+}
+
+.tp-tile.empty {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  cursor: default;
+}
+
+.tp-tile.today {
+  border-color: #7e4bbf;
+  background: #eae0ff;
+}
+
+.tp-date {
+  font-weight: 800;
+  color: #5b41a8;
+}
+
+.tp-icons {
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 22px;
+  max-width: 100%;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  overflow: visible;
+}
+
+.tp-icons > * {
+  flex: 0 0 auto;
+}
+
+.tp-icons svg {
+  vertical-align: middle;
+  margin-inline-start: 0;
+  stroke: #6b4bb8;
+  width: 22px;
+  height: 22px;
+}
+
+.tp-icon-sep {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9em;
+  color: #6d5a95;
+  line-height: 1;
+  margin-inline: 3px;
+  transform: translateY(-1px);
+}
+
+.tp-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #eee6ff;
+  border: 1px solid #dccfff;
+  color: #5b41a8;
+  font-weight: 800;
+  font-family: "Heebo", Arial, sans-serif;
+  font-size: 12px;
+  min-height: 20px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.1;
+}
+
+.tp-badge.tp-badge-empty {
+  background: transparent;
+  border-color: transparent;
+}
+
+.tp-chosen {
+  display: inline-block;
+  margin: 4px auto;
+  background: #f0ecff;
+  border: 1px solid #e6ddff;
+  color: #5b41a8;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-weight: 800;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tp-med {
+  padding: 10px 6px;
+  border-bottom: 1px solid #f1f0f6;
+}
+
+.tp-med-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.tp-med-header > strong {
+  min-width: 0;
+  flex: 1 1 auto;
+  word-break: break-word;
+}
+
+/* Very narrow screens (e.g. home embedded plan): long Hebrew + done button must stay inside card */
+@media (max-width: 380px) {
+  .tp-med-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .tp-med-header .tp-done-btn {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    align-self: stretch;
+    box-sizing: border-box;
+  }
+}
+
+.tp-med-quantity {
+  font-size: 14px;
+  color: #444;
+  margin-top: 4px;
+}
+
+.tp-med-period {
+  margin-top: 4px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.tp-message {
+  padding: 8px 6px;
+  border-bottom: 1px solid #f1f0f6;
+}
+
+.tp-message-dr {
+  font-weight: 800;
+}
+
+.tp-message-text {
+  margin-top: 2px;
+}
+
+.tp-done-btn {
+  background: #f3ecff;
+  color: #5b2ca0;
+  border: 1px solid #d8c7f3;
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-weight: 700;
+  font-family: "Heebo", Arial, sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  min-width: 120px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  line-height: 1;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.tp-done-btn:hover {
+  background: #e8dcfb;
+  border-color: #c8b1ef;
+}
+
+.tp-done-btn.done {
+  background: #7e4bbf;
+  color: #fff;
+  border-color: #7e4bbf;
+}
+
+.tp-icon-pill {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.08em;
+  padding-inline-end: 4px; /* reserve space for count badge */
+  margin-inline: 1px;
+}
+
+.tp-icon-pill sup {
+  position: absolute;
+  top: -0.42em;
+  right: -0.22em;
+  font-size: 0.5em;
+  background: #fff;
+  border-radius: 50%;
+  padding: 0 2px;
+  color: #000;
+  border: 1px solid #ccc;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.tp-ovulation-pill {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline-end: 4px; /* reserve space for count badge */
+  margin-inline: 1px;
+}
+
+.tp-ovulation-triangle {
+  width: 24px;
+  height: 24px;
+  background: #f0ecff;
+  border: 1px solid #d8c7f3;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tp-ovulation-pill-icon {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.tp-ovulation-count {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  background: #e53935;
+  color: #fff;
+  font-size: 0.52rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0 3px;
+  line-height: 1;
+}
+
+.tp-modal-text {
+  font-weight: 700;
+  color: #5b41a8;
+  margin-bottom: 10px;
+}
+
+.tp-modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.tp-modal-btn {
+  border-radius: 14px;
+  border: 2px solid #7c3aed;
+  background: #fff;
+  color: #7c3aed;
+  box-shadow: 0 1px 5px 0 rgba(124, 50, 237, 0.1);
+  padding: 7px 16px;
+  font-weight: 700;
+  cursor: pointer;
+  min-width: 120px;
+  transition: 160ms;
+}
+
+.tp-modal-btn:hover,
+.tp-modal-btn:focus {
+  border-color: #5b23b7;
+  color: #5b23b7;
+}
+
+.tp-modal-btn.filled {
+  background: #7c3aed;
+  color: #fff;
+  border-color: #7c3aed;
+}
+
+.tp-modal-btn.filled:hover,
+.tp-modal-btn.filled:focus {
+  background: #5b23b7;
+  border-color: #5b23b7;
+  color: #fff;
+}
+
+.tp-done-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.35em;
+  font-weight: 900;
+  font-size: 1.06em;
+}
+
+.tp-done-icon.yes {
+  color: #ffffff;
+}
+
+.tp-done-icon.no {
+  color: #6d5a95;
+}
+
+.tp-weekdays-row {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  align-items: center;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #666;
+  direction: rtl;
+  padding: 0 2px;
+}
+
+.tp-weekday-cell {
+  flex: 1;
+  text-align: center;
+}
+
+.loader.small {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #663399;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  animation: tp-spin 0.8s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .tp-calendar {
+    overflow-x: visible;
+    padding: 0 0 4px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .tp-weekdays-row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3px;
+    margin-bottom: 4px;
+    font-size: 11px;
+    padding: 0;
+  }
+
+  .tp-weekday-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tp-week-row {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 3px;
+  }
+
+  .tp-tile {
+    min-height: 86px;
+    height: 100%;
+    padding: 4px 2px;
+    gap: 3px;
+    overflow: visible;
+  }
+
+  .tp-date {
+    font-size: 10px;
+  }
+
+  .tp-badge {
+    font-size: 11px;
+    padding: 1px 6px;
+    min-height: 18px;
+  }
+
+  .tp-icons {
+    font-size: 15px;
+    min-height: 22px;
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 2px;
+    line-height: 1;
+  }
+
+  .tp-icons svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .tp-icon-sep {
+    font-size: 0.85em;
+    margin-inline: 2px;
+  }
+
+  .tp-ovulation-triangle {
+    width: 22px;
+    height: 22px;
+  }
+
+  .tp-ovulation-pill-icon {
+    font-size: 0.9rem;
+  }
+
+  .tp-icon-pill {
+    font-size: 0.9rem;
+    padding-inline-end: 3px;
+  }
+
+  .tp-icon-pill sup {
+    top: -0.42em;
+    right: -0.2em;
+    padding: 0 2px;
+    font-size: 0.5em;
+  }
+
+  .tp-task-line {
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 14px;
+  }
+
+  .tp-done-btn {
+    min-width: 112px;
+    padding: 7px 12px;
+    font-size: 0.85rem;
+  }
+
+  .tp-modal-btn {
+    min-width: 108px;
+    padding: 7px 12px;
+  }
+}
+
+@media (max-width: 360px) {
+  .tp-badge {
+    font-size: 10px;
+    padding: 1px 4px;
+    min-height: 16px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 551px) {
+  .tp-icons {
+    gap: 5px;
+  }
+
+  .tp-icon-pill,
+  .tp-ovulation-pill {
+    padding-inline-end: 5px;
+    margin-inline: 2px;
+  }
+}
+
+/* Narrow problematic bands where icon badges collide */
+@media (min-width: 560px) and (max-width: 586px), (min-width: 600px) and (max-width: 602px) {
+  .tp-icons {
+    gap: 3px;
+    row-gap: 2px;
+  }
+
+  .tp-icons svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .tp-icon-pill,
+  .tp-ovulation-pill {
+    padding-inline-end: 2px;
+    margin-inline: 0;
+  }
+
+  .tp-icon-pill sup {
+    top: -0.4em;
+    right: -0.18em;
+    font-size: 0.46em;
+  }
+}
+
+@media (min-width: 1000px) {
+  .tp-week-row {
+    gap: 10px;
+  }
+
+  .tp-tile {
+    min-height: 108px;
+    padding: 8px 6px;
+    gap: 7px;
+  }
+
+  .tp-icons {
+    font-size: 24px;
+    min-height: 26px;
+    gap: 6px;
+  }
+
+  .tp-icon-sep {
+    margin-inline: 4px;
+  }
+
+  .tp-date {
+    font-size: 1.02rem;
+  }
+
+  .tp-badge {
+    font-size: 13px;
+    min-height: 22px;
+    padding: 3px 10px;
+  }
+}
+
+@keyframes tp-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import "../styles/global.css";
 import "../styles/about-page.css";
 export default function AboutSection() {
   const { t } = useTranslation();

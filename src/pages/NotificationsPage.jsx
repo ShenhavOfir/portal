@@ -11,7 +11,8 @@ import "../styles/NotificationsPage.css";
 import "../styles/global.css";
 export default function NotificationsPage() {
   const { patientData, refreshPatientData } = useCycle();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const dir = i18n.dir?.() || "rtl";
 
   const fullList = patientData?.notifications?.messages || [];
 
@@ -109,7 +110,7 @@ export default function NotificationsPage() {
   };
 
   return (
-    <div className="notifications-page">
+    <div className="notifications-page" dir={dir}>
       <h2>{t("alerts")}</h2>
 
       {visibleNotifications.length === 0 && !isDeletingAll && deletingIndex === null ? (

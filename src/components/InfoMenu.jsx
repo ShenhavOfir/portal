@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import menuData from "../json-translations/menu-he.json";
 import { useTranslation } from "react-i18next";
 import "./../styles/InfoMenuPage.css";
-import "../styles/global.css";
 export default function InfoMenu({ alwaysOpen = false }) {
   const { t, i18n } = useTranslation();
   const [open, setOpen] = useState(alwaysOpen);

@@ -10,23 +10,21 @@
   padding: 2rem 1rem;
 }
 
-/* .logo {
-  font-size: 2.6rem;      
+/* Login typography (migrated from global.css) */
+.logo {
+  font-size: 2.6rem;
   font-weight: bold;
-  color: #7b3f98;
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  font-family: "Heebo", Arial, sans-serif;  
+  color: var(--brand);
+  font-family: "Heebo", Arial, sans-serif;
 }
 
 .subtitle {
-  font-size: 1.2rem;       
+  font-size: 1.2rem;
   color: #444;
-  margin-bottom: 2rem;
   max-width: 340px;
   line-height: 1.6;
   font-family: "Heebo", Arial, sans-serif;
-} */
+}
 
 .start-btn {
   width: 220px;            /* קצת יותר גדול */

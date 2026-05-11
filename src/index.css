@@ -1,9 +1,13 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  direction: rtl;
+  direction: inherit; /* direction comes from html[dir] (set by i18n applyDirection) */
   background: #f9f9ff;
 }
+
+/* Direction is controlled by i18n via <html dir="..."> */
+html[dir="rtl"] { direction: rtl; }
+html[dir="ltr"] { direction: ltr; }
 
 .header {
   background: #fff;

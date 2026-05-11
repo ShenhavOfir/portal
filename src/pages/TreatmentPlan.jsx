@@ -1,6 +1,6 @@
 // src/pages/TreatmentPlan.jsx
 
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useCycle } from "../context/CycleContext";
 import { useTranslation } from "react-i18next";
 import { formatHeYMD } from "../utils/date";
@@ -56,6 +56,9 @@ const isLatestCycle = selectedIndex === 0;
 
   // ✅ חדש: מצביעים על תרופות שממתינות לשליחה
   const [pendingKeys, setPendingKeys] = useState([]);
+  const todayTasksRef = useRef(null);
+  const medsSectionRef = useRef(null);
+  const didInitialTodayScrollRef = useRef(false);
 
   useEffect(() => {
     console.log("📦 כל תרופות בשחרור (releases):", releases);
@@ -302,6 +305,27 @@ const onClickDone = (name, source, date, index = 0) => {
   setConfirmOpen(true);
 };
 
+const scrollToDailySections = () => {
+  const target = todayTasksRef.current || medsSectionRef.current;
+  if (!target) return;
+  target.scrollIntoView({ behavior: "smooth", block: "start" });
+};
+
+const onSelectDay = (ymd) => {
+  setSelected(ymd);
+  setTimeout(scrollToDailySections, 50);
+};
+
+useEffect(() => {
+  if (didInitialTodayScrollRef.current) return;
+  if (!ymdList.length) return;
+  if (!ymdList.includes(todayYMD)) return;
+  if (selected !== todayYMD) return;
+
+  didInitialTodayScrollRef.current = true;
+  setTimeout(scrollToDailySections, 120);
+}, [ymdList, selected, todayYMD]);
+
 const confirmYes = async () => {
   if (pendingMed?.name && pendingMed?.source) {
     const { name, source, date, index } = pendingMed;
@@ -466,7 +490,7 @@ if (ovulationCount > 0) {
                   return (
                     <button
                       key={ymd}
-                      onClick={() => setSelected(ymd)}
+                      onClick={() => onSelectDay(ymd)}
                       className={`tp-tile ${active ? "active" : ""} ${isToday ? "today" : ""}`}
                       title={formatHeYMD(ymd)}
                     >
@@ -476,7 +500,7 @@ if (ovulationCount > 0) {
                       <div className="tp-icons">
                         {iconsArr.map((icon, i) => (
                           <React.Fragment key={i}>
-                            {i > 0 && " + "}
+                            {i > 0 && <span className="tp-icon-sep">+</span>}
                             {icon}
                           </React.Fragment>
                         ))}
@@ -497,7 +521,7 @@ if (ovulationCount > 0) {
 
           <div className="tp-chosen">{formatHeYMD(selected)}</div>
           {/* משימות היום */}
-<div className="tp-section">
+<div className="tp-section" ref={todayTasksRef}>
   <h3 className="tp-section-title">{t("whatAreWeDoingToday")}</h3>
   {(() => {
     const a = String(day?.actions ?? "");
@@ -576,7 +600,7 @@ console.log("🔔 task icon:", icons[a]);
 
 
       {/* תרופות יומיות */}
-      <div className="tp-section">
+      <div className="tp-section" ref={medsSectionRef}>
         <h3 className="tp-section-title">{t("injectionsAndMedicine")}</h3>
         {grouped.daily.length ? grouped.daily.map((m, idx) => {
           const key = `${m.name}_day`;

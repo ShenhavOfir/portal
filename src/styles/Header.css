@@ -43,6 +43,13 @@
 
 .hamburger-wrapper {
   font-size: 1.4rem;
+  /* Reserve space for the fixed hamburger button so header icons won't overlap it */
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -155,15 +162,20 @@
 
 /* כפתור התנתקות בדסקטופ – מעל ההדר */
 .desktop-logout-wrapper {
-  display: none;
+  display: flex;
   width: 100%;
   margin: 0 0 4px;
-  direction: rtl; /* שומר על מיקום קבוע בצד שמאל גם כששפת הממשק אנגלית */
+  direction: inherit; /* follow app language direction */
+  justify-content: flex-end;
 }
 
 .desktop-logout-btn {
   font-size: 0.8rem !important;
   padding: 4px 10px !important;
+}
+
+.mobile-logout-btn {
+  display: none !important;
 }
 
 /* כפתור רענון – אייקון בלבד, בלי מסגרת */
@@ -199,7 +211,7 @@
   .right-header {
     grid-area: right;
     gap: 6px;
-    margin-right: 20px;
+    margin-right: 0;
     justify-content: flex-start;
   }
 
@@ -244,15 +256,6 @@
     padding: 2px 5px;
   }
 
-  .mobile-logout-btn {
-    font-size: 0.7rem !important;
-    padding: 2px 8px !important;
-    max-width: 120px;
-    line-height: 1.1;
-    white-space: normal;
-    text-align: center;
-  }
-
   .header-logout-btn {
     width: auto !important;
     font-weight: 700 !important;
@@ -268,6 +271,20 @@
 
   .desktop-refresh-row {
     display: none;
+  }
+}
+
+/* RTL tablets/small screens: keep header icons from overlapping the fixed hamburger button */
+@media (max-width: 984px) {
+  html[dir="rtl"] .right-header {
+    padding-right: 44px;
+  }
+}
+
+/* LTR small screens: keep icons from overlapping the fixed hamburger button */
+@media (max-width: 700px) {
+  html[dir="ltr"] .right-header {
+    padding-left: 44px;
   }
 }
 @media (min-width: 1001px) {
@@ -307,11 +324,56 @@
     justify-content: flex-end; /* ב-RTL זה מצמיד לשמאל המסך */
   }
 
-  .mobile-logout-btn {
-    display: none !important;
-  }
-
   .mobile-refresh-row {
     display: none;
+  }
+}
+
+/* moved from global.css: Header custom-navbar scoped rules */
+.custom-navbar .header-inner {
+  flex-wrap: wrap;
+}
+
+.custom-navbar .right-group,
+.custom-navbar .left-group {
+  display: flex;
+  align-items: center;
+}
+
+.custom-navbar .left-group .notif-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #e53935;
+  color: #fff;
+  border-radius: 999px;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+}
+
+@media (max-width: 576px) {
+  .custom-navbar .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .custom-navbar .left-group,
+  .custom-navbar .right-group {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .custom-navbar .left-group button,
+  .custom-navbar .left-group span,
+  .custom-navbar .left-group select {
+    font-size: 0.75rem !important;
+  }
+
+  .custom-navbar .left-group .notif-btn svg {
+    font-size: 1.4rem !important;
   }
 }

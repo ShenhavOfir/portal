@@ -6,6 +6,30 @@
   min-height: 100vh;
 } */
 
+/* App shell layout (migrated from global.css) */
+.app-container {
+  padding: 1.5rem;
+  min-height: 100vh;
+}
+
+/* מקום מתחת לסרגל תחתון במובייל / טאבלט (אותו breakpoint כמו ה-BottomNav)
+   משתמשים ב-!important כדי לגבור על padding: 8px !important במסכים עד 600px */
+@media (max-width: 1100px) {
+  .app-container {
+    padding-bottom: 88px !important;
+  }
+}
+
+/* ריווח למסכים קטנים – הועבר מ-global.css */
+@media (max-width: 600px) {
+  .app-container {
+    padding: 8px !important;
+    /* חשוב: לא לדרוס את ה-padding-bottom של ה-BottomNav */
+    padding-bottom: 88px !important;
+    box-sizing: border-box;
+  }
+}
+
 /* Navigation styles */
 /* nav a {
   margin: 0 10px;

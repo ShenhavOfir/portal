@@ -35,14 +35,14 @@ export default function TermsModal({ onClose, pdfUrl }) {
           style={{
             position: "absolute",
             top: "10px",
-            right: "16px",         // ✅ תמיד בצד ימין
+            left: "16px",          // keep away from PDF toolbar actions
             fontSize: "22px",
             fontWeight: "bold",
             background: "transparent",
             border: "none",
             cursor: "pointer",
             zIndex: 10,
-            direction: "ltr",      // ✅ ביטול הירושת RTL
+            direction: "ltr",
           }}
         >
           ✖

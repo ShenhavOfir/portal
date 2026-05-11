@@ -11,6 +11,7 @@ import { useCycle } from "../context/CycleContext";
 
 import HamburgerMenu from "./HamburgerMenu";
 import { IoNotificationsSharp } from "react-icons/io5";
+import { languages } from "../i18n";
 
 import "../styles/global.css";
 import "../styles/header.css";
@@ -19,7 +20,7 @@ export default function Header() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const { patientData, demoMode, publicMode, refreshPatientData } = useCycle();
-  const dir = i18n.dir?.() || "rtl";
+  const dir = languages.find((l) => l.code === i18n.language)?.dir || "rtl";
 
   const fullNotifs = patientData?.notifications?.messages || [];
   const unreadCount = fullNotifs.filter((n) => n.see !== "no").length;
@@ -120,8 +121,7 @@ export default function Header() {
       )}
 
       <Navbar expand="md" bg="light" className="mb-3 custom-navbar">
-        {/* ההדר כולו נשאר RTL כדי שהמיקומים של ההמבורגר/פעמון/גלובוס/התנתקות לא ישתנו בין שפות */}
-        <Container fluid className="px-3" dir="rtl">
+        <Container fluid className="px-3" dir={dir}>
        <div className="header-inner">
   {/* ימני – פעמון, שפה ותפריט המבורגר */}
 <div className="right-header">

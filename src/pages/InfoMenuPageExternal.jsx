@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { MdArrowBack } from "react-icons/md";
 import InfoMenu from "../components/InfoMenu";
 import "../styles/InfoMenuPage.css";
-import "../styles/global.css";
 export default function InfoMenuPageExternal() {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();

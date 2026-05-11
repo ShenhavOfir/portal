@@ -4,7 +4,6 @@ import { useCycle } from "../context/CycleContext";
 import { useNavigate } from "react-router-dom";
 import "../styles/DemoBanner.css";
 import { useTranslation } from "react-i18next";
-import "../styles/global.css";
 export default function DemoBanner() {
   const { demoMode, setDemoMode } = useCycle();
   const navigate = useNavigate();

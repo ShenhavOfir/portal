@@ -6,7 +6,7 @@ import "../styles/LanguageSelector.css"; // נייבא את קובץ ה-CSS הח
 
 export default function LanguageSelector({ compact = false }) {
   const { i18n, t } = useTranslation();
-  const dir = i18n.dir?.() || "rtl";
+  const dir = languages.find((l) => l.code === i18n.language)?.dir || "rtl";
   const isRTL = dir === "rtl";
   const [open, setOpen] = useState(false);
 
@@ -32,7 +32,17 @@ export default function LanguageSelector({ compact = false }) {
           <div
             className="tp-modal-box lang-modal-box"
             onClick={(e) => e.stopPropagation()}
+            dir={dir}
           >
+            <button
+              type="button"
+              className="lang-modal-close"
+              onClick={() => setOpen(false)}
+              aria-label={t("close") || "Close"}
+              title={t("close") || "Close"}
+            >
+              ✕
+            </button>
             <div className="lang-modal-title">
               {t("chooseLanguage")}
             </div>
@@ -46,7 +56,6 @@ export default function LanguageSelector({ compact = false }) {
                   }`}
                   onClick={() => {
                     i18n.changeLanguage(l.code);
-                    sessionStorage.setItem("app_lang", l.code);
                     setOpen(false);
                   }}
                 >

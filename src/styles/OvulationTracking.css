@@ -8,21 +8,31 @@
 
   padding: 1rem;
   background: var(--bg);
+  font-family: "Heebo", Arial, sans-serif; /* ensure consistent typography (e.g., 'מתוכן הופרו') */
 }
 
 /* כפתור – במרכז */
 .ova-toolbar { margin: 8px 0 14px; display: flex; }
 .ova-toolbar.center { justify-content: center; }
-/* .ova-btn {
+
+/* ova-btn (migrated from global.css) */
+.ova-btn {
   border: 1px solid var(--chip-brd);
-  background: #fff;
+  background: #ffffff;
   color: var(--brand);
   font-weight: 800;
-  padding: 8px 14px;
+  padding: 8px 18px;   /* גודל נעים — יותר גדול מהדיפולט, לא ענק */
   border-radius: 999px;
   cursor: pointer;
+  font-size: 0.95rem;
+  box-shadow: 0 3px 10px rgba(126, 75, 191, 0.1);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
 }
-.ova-btn:hover { background: var(--chip-bg); } */
+
+.ova-btn:hover {
+  background: var(--chip-bg);
+  box-shadow: 0 4px 14px rgba(126, 75, 191, 0.15);
+}
 
 /* כרטיסים בערימה – ממורכזים ולא ברוחב מלא */
 .ova-stack {
@@ -81,20 +91,29 @@
 }
 .ova-placeholder { opacity: 0.85; }
 
-/* שורות נתון – קומפקטיות ועם מרחק קטן בין עמודות */
-/* .ova-row {
-   display: flex;
+/* שורות נתון – קומפקטיות ועם מרחק קטן בין עמודות (migrated from global.css) */
+.ova-row {
+  display: flex;
   justify-content: space-between;
-  grid-template-columns: 1fr auto;
   align-items: center;
   padding: 8px 10px;
   border-top: 1px solid #f1f0f6;
   column-gap: 12px;
 }
-.ova-row:first-of-type { border-top: 0; } */
-
-/* .ova-label { color: var(--text); font-weight: 700; white-space: nowrap;  min-width: 100px; }
-.ova-value { color: var(--text); font-weight: 800; white-space: nowrap; } */
+.ova-row:first-of-type {
+  border-top: 0;
+}
+.ova-label {
+  color: var(--text);
+  font-weight: 700;
+  white-space: nowrap;
+  min-width: 100px;
+}
+.ova-value {
+  color: var(--text);
+  font-weight: 800;
+  white-space: nowrap;
+}
 .ova-discontinued-msg {
   background-color: #f4edff;      /* רקע סגול בהיר */
   border: 2px solid #9c4dcc;      /* מסגרת סגולה נועזת */
@@ -108,7 +127,8 @@
   box-shadow: 0 2px 6px rgba(156, 77, 204, 0.2); /* צל קל בגוון מתאים */
 }
 
-/* .ova-main-title {
+/* Main title (migrated from global.css) */
+.ova-main-title {
   text-align: center;
   font-size: 2.2rem;
   font-weight: 900;
@@ -116,7 +136,6 @@
   margin: 0 0 1.2rem;
   position: relative;
 }
-
 .ova-main-title::after {
   content: "";
   display: block;
@@ -125,7 +144,7 @@
   background: var(--brand);
   margin: 10px auto 0;
   border-radius: 4px;
-} */
+}
 .ova-frozen-text {
   text-align: center;
   font-weight: 700;
@@ -136,6 +155,14 @@
 
 .ova-group {
   margin-bottom: 24px;
+}
+
+/* moved from global.css (mobile width behavior) */
+@media (max-width: 600px) {
+  .ova-card {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
 
 

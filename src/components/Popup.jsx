@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/Popup.css";
-import "../styles/global.css";
 export default function Popup({
   message,
   onClose,
@@ -22,8 +21,8 @@ export default function Popup({
         {/* כפתור איקס למעלה */}
         <button className="popup-close" onClick={onClose}>✖</button>
 
-        {/* הודעת הפופאפ */}
-        <p className="popup-message">{message}</p>
+        {/* div (not p): message may be JSX with divs/links — p cannot nest p/div */}
+        <div className="popup-message">{message}</div>
 
         {/* כפתורי אישור וביטול */}
         {showConfirm ? (

@@ -6,7 +6,6 @@ import BackToCurrentCycle from "../components/BackToCurrentCycle";
 
 
 import "../styles/OvulationTracking.css";
-import "../styles/global.css";
 const isNonZero = (v) => {
   if (v == null) return false;
   const s = String(v).trim();

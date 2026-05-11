@@ -3,7 +3,7 @@
   position: fixed;
   inset: 0;
   background-color: transparent;
-  z-index: 500;
+  z-index: 999;
   pointer-events: none;
   font-size: 24px;
   font-weight: bold;
@@ -15,6 +15,20 @@
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: center;
+}
+
+.demo-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 50px,
+    rgba(0, 0, 0, 0.05) 50px,
+    rgba(0, 0, 0, 0.05) 60px
+  );
+  pointer-events: none;
 }
 
 .demo-overlay span {

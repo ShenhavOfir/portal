@@ -8,7 +8,6 @@ import LanguageSelectorLogin from "../components/LanguageSelectorLogin";
 import { FaRegEye, FaQuestionCircle, FaRegFileAlt, FaIdCard, FaQrcode } from "react-icons/fa";
 import Popup from "../components/Popup";
 import TermsModal from "../components/TermsModal";
-import "../styles/global.css";
 export default function LoginPage() {
   const navigate = useNavigate();
   const { t } = useTranslation();

@@ -1,7 +1,7 @@
 .notifications-page {
   padding: 1rem;
   min-height: 300px;
-  direction: rtl;
+  direction: inherit; /* follow html[dir] */
   background: #faf8fd;
 }
 
@@ -12,8 +12,8 @@
   color: #333;
 }
 
-/* .btn-delete-all {
-  margin-bottom: 12px;
+/* כפתור "מחק הכל" */
+.btn-delete-all {
   padding: 6px 12px;
   background-color: #7e4bbf;
   color: white;
@@ -21,12 +21,13 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.9rem;
-} */
+  margin: -3px 0 10px; /* טיפה יותר קרוב לכותרת, מבלי להידבק אליה */
+}
 
-/* .btn-delete-all:disabled {
+.btn-delete-all:disabled {
   opacity: 0.6;
   cursor: not-allowed;
-} */
+}
 
 .notifications-list {
   list-style: none;
@@ -48,16 +49,17 @@
 .notification-info .time {
   font-size: 0.9rem;
   color: #7e4bbf;
-  text-align: right;
+  text-align: start;
 }
 
 .notification-info .message {
   font-weight: 600;
   margin-top: 4px;
-  text-align: right;
+  text-align: start;
 }
 
-/* .notification-delete-btn {
+/* כפתור מחיקת התראה */
+.notification-delete-btn {
   background: none;
   border: none;
   padding: 0;
@@ -73,4 +75,4 @@
 .notification-delete-btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-} */
+}

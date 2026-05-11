@@ -2,18 +2,20 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useCycle } from "../context/CycleContext";
+import { languages } from "../i18n";
 import "../styles/BottomNav.css";
 
 export default function BottomNav() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { patientData } = useCycle();
+  const dir = languages.find((l) => l.code === i18n.language)?.dir || "rtl";
 
   const taskCount = Array.isArray(patientData?.tasklist?.task)
     ? patientData.tasklist.task.length
     : 0;
 
   return (
-    <nav className="bottom-nav" dir="rtl">
+    <nav className="bottom-nav" dir={dir}>
       <NavLink
         to="/today"
         className={({ isActive }) =>

@@ -27,6 +27,16 @@
 }
 
 /* צבע לטקסט שמתחת */
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-item {
+  list-style: none;
+}
+
 .category-list,
 .category-list a,
 .category-title {
@@ -56,8 +66,10 @@
 .info-back-btn {
   background: none;
   border: none;
-  color: #7e4bbf;
+  color: var(--brand);
   cursor: pointer;
+  font-size: 26px;
+  margin-bottom: 10px;
   position: absolute;
   top: 16px;
   right: 16px;
@@ -124,7 +136,7 @@
 }
 
 /* רשימת לינקים */
-/* .link-list {
+.link-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -142,6 +154,6 @@
 }
 
 .link-list a:hover {
-  color: #7e4bbf;
+  color: var(--brand);
   text-decoration: underline;
-} */
+}

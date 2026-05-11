@@ -36,6 +36,7 @@ import ReshTimeSender from "./components/ReshTimeSender";
 
 
 import "./styles/global.css";
+import "./styles/App.css";
 function AppShell() {
   return (
     <div className="app-container">

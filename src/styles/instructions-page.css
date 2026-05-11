@@ -6,11 +6,12 @@
   margin: auto;
 }
 
-/* .page-title {
+/* moved from global.css */
+.page-title {
   text-align: center;
-  color: #663399;
+  color: var(--brand);
   margin-bottom: 2rem;
-} */
+}
 
 .instr-section {
   margin-bottom: 2rem;

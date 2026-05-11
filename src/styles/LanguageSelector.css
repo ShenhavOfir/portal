@@ -32,6 +32,24 @@
   max-width: 200px;
   width: auto;
   padding: 14px 16px;
+  position: relative;
+}
+
+.lang-modal-close {
+  position: absolute;
+  top: 6px;
+  inset-inline-start: 8px; /* RTL: right, LTR: left */
+  border: none;
+  background: transparent;
+  color: #5b41a8;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.lang-modal-close:hover {
+  color: #3c2c79;
 }
 
 .lang-modal-title {

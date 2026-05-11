@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { MdSupportAgent } from "react-icons/md";
 import { useTranslation } from "react-i18next"; // ✅ תרגומים
 import "../styles/ContactFloating.css";
-import "../styles/global.css";
 function ContactFloating() {
   const navigate = useNavigate();
   const { t } = useTranslation();

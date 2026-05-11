@@ -1,9 +1,9 @@
-/* .bullet-list {
+/* About page / AboutSection styles (migrated from global.css) */
+.bullet-list {
   list-style-type: disc;
-  padding-right: 1.5rem;
-  
+  padding-inline-start: 1.5rem; /* RTL: right, LTR: left */
 }
 
 .bullet-list li {
   margin-bottom: 0.5rem;
-} */
+}

@@ -129,7 +129,7 @@ function ResultCard({ entry, dir }) {
           {cols.map((c, i) => {
             const rows = splitValueIntoRows(c.value);
             return (
-              <div className="mini-val" key={`v-${i}`} title={c.value}>
+            <div className="mini-val" key={`v-${i}`} title={c.value}>
                 {Array.isArray(rows)
                   ? rows.map((row, ri) => (
                       <span className="mini-val-row" key={ri}>
@@ -137,7 +137,7 @@ function ResultCard({ entry, dir }) {
                       </span>
                     ))
                   : rows}
-              </div>
+            </div>
             );
           })}
         </div>

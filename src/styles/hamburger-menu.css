@@ -1,55 +1,88 @@
 /* כפתור המבורגר - קבוע בצד ימין למעלה */
-/* .hamburger-button {
+.hamburger-button {
   position: fixed;
   top: 1rem;
   right: 1rem;
+  left: auto;
   font-size: 24px;
   background: none;
   border: none;
   cursor: pointer;
-  z-index: 1001;
+  z-index: 1999; /* מתחת ל-backdrop/drawer כשהתפריט פתוח, ועדיין מעל BottomNav */
+}
+
+/* באנגלית (LTR) — להעביר את כפתור ההמבורגר לשמאל כדי שלא יתנגש בכפתורי ההדר */
+html[dir="ltr"] .hamburger-button {
+  left: 1rem;
+  right: auto;
+}
+
+@media (max-width: 600px) {
+  .hamburger-button {
+    margin-right: auto;
+  }
 }
 
 .hamburger-drawer {
   position: fixed;
   top: 0;
+  bottom: 0; /* יותר יציב מ-height:100vh במובייל */
   right: -300px;
+  left: auto;
   width: 300px;
-  height: 100vh;
+  height: auto;
   background: white;
   box-shadow: -2px 0 5px rgba(0,0,0,0.2);
   transition: right 0.3s ease-in-out;
-  z-index: 1002;
+  z-index: 2001; /* מעל BottomNav */
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
+  padding-bottom: calc(1rem + env(safe-area-inset-bottom));
   box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 
 .hamburger-drawer.open {
   right: 0;
-} */
+}
 
-/* .close-button {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;  */
-  /* ✅ תמיד בצד ימין */
-  /* font-size: 24px;
+/* באנגלית (LTR) — המגירה נפתחת משמאל */
+html[dir="ltr"] .hamburger-drawer {
+  left: -300px;
+  right: auto;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+  transition: left 0.3s ease-in-out;
+}
+
+html[dir="ltr"] .hamburger-drawer.open {
+  left: 0;
+}
+
+.close-button {
+  position: sticky;          /* נשאר זמין בזמן גלילה בתוך המגירה */
+  top: 0;
+  align-self: flex-end;      /* ברירת מחדל (RTL) */
+  font-size: 24px;
   background: none;
   border: none;
   cursor: pointer;
+  margin-bottom: 0.5rem;
+  z-index: 2;
 }
 
+/* ב-LTR (אנגלית) — ה-X בצד שמאל כדי לא לעלות על כפתור ההמבורגר */
+html[dir="ltr"] .hamburger-drawer .close-button {
+  align-self: flex-start;
+}
 
 .backdrop {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-} */
-
-.app-container {
-  overflow-x: hidden;
+  z-index: 2000; /* מעל BottomNav */
 }
 
 .app-title {
@@ -148,6 +181,16 @@
 .link-list li,
 .link-list li a {
   color: #000 !important; /* ✅ טקסט שחור */
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-item {
+  list-style: none;
 }
 
 .category-title {

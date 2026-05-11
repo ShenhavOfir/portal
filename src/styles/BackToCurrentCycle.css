@@ -1,8 +1,10 @@
 .back-to-current-btn {
-  font-size: 0.95rem;     /* טקסט בגודל נעים */
-  padding: 8px 16px;      /* כפתור בינוני */
-  border-radius: 10px;    /* עיגול עדין */
-  font-weight: 600;
+  font-family: "Heebo", Arial, sans-serif;
+  font-size: 1.05rem;     /* מעט גדול יותר */
+  padding: 10px 18px;     /* קצת יותר “נוכחות” */
+  border-radius: 999px;   /* גלולה נעימה */
+  font-weight: 700;
+  line-height: 1.15;
   cursor: pointer;
 
   background: var(--brand);
